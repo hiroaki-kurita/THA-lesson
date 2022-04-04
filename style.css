@@ -1,0 +1,587 @@
+/* 
+画面のスタイルシート
+*/
+
+body {
+    margin: 0;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration:none; 
+    color: #5C5337;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+/* 
+[header]のスタイルシート
+*/
+.block-header{
+    display: flex;
+    width: 100%;
+    height: 126px;
+    background-color: #C6E82D;
+}
+
+.block-header img{
+    margin: 13px auto 13px 88px;
+}
+
+ul.header-list{
+    display: flex;
+    margin: 48px 158px 48px 904px;
+    width: 670px;
+    padding-inline-start: 0px;
+}
+
+.header-list li{
+    width: 120px;
+    font-family: "ヒラギノ角ゴシック";
+    font-size: 30px;
+}
+
+/* 協会について */
+.header-list .about{
+    padding-left: 155px;
+    padding-right: 96px;
+    width: 179px;
+}
+
+/* 
+[main]のスタイルシート
+*/
+
+/* メインタイトル　トータルヘルスケアで、仕事も、健康も、グレードアップ〜 */
+.main-title{
+    background-image: url(img/cooking.png);
+    height: 1000px;
+}
+
+
+.main-title h2{
+    font-size: 49px;
+    color: #14120E;
+    -webkit-text-stroke: 2px #FFF;
+    padding-left: 194.8px;
+    padding-top: 115.5px;
+}
+
+.main-title h1{
+    font-size: 77px;
+    color: #14120E;
+    -webkit-text-stroke: 3px #FFF;
+    padding-left: 165px;
+    padding-top: 37.5px;
+}
+
+/* 認定講座について */
+#lesson-detail h3{
+    margin-top: 123px;
+    color: #5C5337;
+    text-align: center;
+    font-size: 70px;
+    font-family: "ヒラギノ明朝 ProN";
+}
+
+#lesson-detail h4{
+    margin-left: 254px;
+    margin-top: 80px;
+    font-family: "ヒラギノ明朝 ProN";
+    border: 2px solid #5C5337;
+    width: 1395px;
+    height: 164px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5C5337;
+    font-size: 50px;
+    box-shadow: 0 0 0 30px #DCEB98, 0 0 0 6px;
+    background-color: #DCEB98;
+}
+
+#lesson-detail img{
+    width: 1109px;
+    height: 744px;
+    margin-left: 150px;
+}
+
+.detail-content{
+    display: flex;
+    margin-top: 80px;
+}
+
+.detail-content p{
+    color: #5C5337;
+    font-size: 30px;
+    line-height: 20px;
+    margin-left: -300px;
+}
+
+.detail-content span{
+    text-decoration:underline;
+    text-decoration-color:#ff8748;
+}
+
+/* 受講者の声 */
+.voice-title{
+    height: 245px;
+    margin-top: 123px;
+    font-family: "ヒラギノ明朝 ProN";
+    font-size: 55px;
+    background-color: #ff8748;
+    background: linear-gradient(to right , #ff8748 , #fff); /* 徐々に透明にする */
+    color: #FFF;
+    padding-top: 51px;
+    padding-left: 211px;
+    line-height: 100px;
+}
+/* 1人目 */
+.voice-first{
+    color: #5C5337;
+    font-family: "ヒラギノ角ゴシック";
+    font-size: 30px;
+    width: 1502px;
+    height: 291px;
+    margin-left: 206px;
+    margin-top: 74.5px;
+    padding-left: 55px;
+    padding-top: 62px;
+    line-height: 20px;
+    box-shadow: 6px 0 25px rgba(0,0,0,.3);
+}
+
+.voice-first span{
+    text-decoration:underline;
+    text-decoration-color:#ff8748;
+}
+
+.first-name p{
+    padding-left: 1205px;
+    padding-top: 30px;
+}
+
+/* 2人目 */
+.voice-second{
+    color: #5C5337;
+    font-family: "ヒラギノ角ゴシック";
+    font-size: 30px;
+    width: 1502px;
+    height: 291px;
+    margin-left: 206px;
+    margin-top: 74.5px;
+    padding-left: 55px;
+    padding-top: 62px;
+    line-height: 20px;
+    box-shadow: 6px 0 25px rgba(0,0,0,.3);
+}
+
+.voice-second span{
+    text-decoration:underline;
+    text-decoration-color:#ff8748;
+}
+
+.second-name p{
+    padding-left: 1205px;
+}
+
+/* 3人目 */
+.voice-third{
+    color: #5C5337;
+    font-family: "ヒラギノ角ゴシック";
+    font-size: 30px;
+    width: 1502px;
+    height: 291px;
+    margin-left: 206px;
+    margin-top: 74.5px;
+    padding-left: 55px;
+    padding-top: 62px;
+    line-height: 20px;
+    box-shadow: 6px 0 25px rgba(0,0,0,.3);
+}
+
+.voice-third span{
+    text-decoration:underline;
+    text-decoration-color:#ff8748;
+}
+
+.third-name p{
+    padding-left: 1205px;
+    padding-top: 70px;
+}
+
+/* 資格取得で描くステップアップ */
+.license-step h4{
+    margin-left: 254px;
+    margin-top: 181.5px;
+    font-family: "ヒラギノ明朝 ProN";
+    border: 2px solid #5C5337;
+    width: 1395px;
+    height: 164px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5C5337;
+    font-size: 50px;
+    box-shadow: 0 0 0 30px #DCEB98, 0 0 0 6px;
+    background-color: #DCEB98;
+}
+
+.step-text{
+    margin-top: 78px;
+    padding-left: 150px;
+    font-family: "ヒラギノ角ゴシック";
+    color: #5C5337;
+    font-size: 30px
+}
+
+.license-step img{
+    margin-left: 150px;
+}
+
+/* 基礎講座 */
+.b-lesson-title h3{
+    font-size: 57px;
+    font-family: "ヒラギノ角ゴシック";
+    color: #5C5337;
+    width: 1620px;
+    background-color: #DCEB98;
+    margin-left: 150px;
+    padding: 59px 0 58px 70px;
+}
+
+.b-lesson-title h4{
+    font-size: 51px;
+    font-family: "ヒラギノ角ゴシック";
+    color: #5C5337;
+    margin: 81px auto 81px 209px;
+}
+
+.b-lesson-detail{
+    display: flex;
+}
+
+.b-lesson-image img{
+    margin-left: 150px;
+    margin-right: 34.5px;
+}
+
+.b-lesson-text p{
+    font-size: 30px;
+    font-family: "ヒラギノ角ゴシック";
+    color: #5C5337;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    line-height: 50px;
+}
+
+/* ベーシックコース */
+.basic-detail{
+    margin-left: 150px;
+    margin-top: 65px;
+}
+
+.basic-title{
+    display: flex;
+    height: 115px;
+}
+
+.basic-title h3{
+    font-size: 50px;
+    font-family: "ヒラギノ角ゴシック";
+    color: #5C5337;
+    width: 1480px;
+    background-color: #DCEB98;
+    padding-top: 24px;
+    padding-left: 167px;
+    margin-left: -154px;
+}
+
+.basic-title img{
+    z-index: 10;
+    margin-top: -7px;
+    margin-left: 23px;
+    height: 130px;
+    width: 130px;
+}
+
+.basic-content{
+    display: flex;
+    margin-top: 15px;
+}
+
+.basic-text p{
+    font-size: 30px;
+    color: #5C5337;
+    line-height: 20px;
+    margin-left: 30px;
+}
+
+.basic-text span{
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration:underline;
+    text-decoration-color:#dceb98;
+    color: #5C5337;
+    margin-left: 15px;
+}
+
+/* サポートコース */
+.support-detail{
+    margin-left: 150px;
+    margin-top: 65px;
+}
+
+.support-detail h3{
+    font-size: 50px;
+    font-family: "ヒラギノ角ゴシック";
+    color: #5C5337;
+    width: 1634px;
+    background-color: #DCEB98;
+    padding-left: 44px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.support-content{
+    display: flex;
+    margin-top: 15px;
+}
+
+.support-text p{
+    font-size: 30px;
+    color: #5C5337;
+    line-height: 20px;
+    margin-left: 30px;
+}
+
+.support-text span{
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration:underline;
+    text-decoration-color:#dceb98;
+    color: #5C5337;
+    margin-left: 15px;
+}
+
+/* フルサポートコース */
+.fullsupport-detail{
+    margin-left: 150px;
+    margin-top: 65px;
+}
+
+.fullsupport-title{
+    display: flex;
+    height: 115px;
+}
+
+.fullsupport-title h3{
+    font-size: 50px;
+    font-family: "ヒラギノ角ゴシック";
+    color: #5C5337;
+    width: 1480px;
+    background-color: #DCEB98;
+    padding-top: 24px;
+    padding-left: 167px;
+    margin-left: -154px;
+}
+
+.fullsupport-title img{
+    z-index: 10;
+    margin-top: -7px;
+    margin-left: 23px;
+    height: 130px;
+    width: 130px;
+}
+
+.fullsupport-content{
+    display: flex;
+    margin-top: 15px;
+}
+
+.fullsupport-text p{
+    font-size: 30px;
+    color: #5C5337;
+    line-height: 20px;
+    margin-left: 30px;
+}
+
+.fullsupport-text span{
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration:underline;
+    text-decoration-color:#dceb98;
+    color: #5C5337;
+    margin-left: 15px;
+}
+
+.nutrition-lesson p{
+    font-size: 25px;
+    margin-left: 76px;
+}
+
+.inquiry-button{
+    display: flex;
+    margin-left: 160px;
+}
+
+.inquiry-button a{
+    margin-top: 133px;
+    margin-bottom: 97px;
+}
+
+/* 育成講座 */
+.t-lesson-title h3{
+    font-size: 57px;
+    font-family: "ヒラギノ角ゴシック";
+    color: #5C5337;
+    width: 1620px;
+    background-color: #DCEB98;
+    margin-left: 150px;
+    padding: 59px 0 58px 70px;
+}
+
+.t-lesson-title h4{
+    font-size: 51px;
+    font-family: "ヒラギノ角ゴシック";
+    color: #5C5337;
+    margin: 81px auto 81px 209px;
+}
+
+.t-lesson-detail{
+    display: flex;
+}
+
+.t-lesson-image img{
+    margin-left: 150px;
+    margin-right: 34.5px;
+}
+
+.t-lesson-text p{
+    font-size: 30px;
+    font-family: "ヒラギノ角ゴシック";
+    color: #5C5337;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    line-height: 50px;
+}
+/* トータルヘルスケアフードアドバイザー２級　講習 */
+.adviser2-detail{
+    margin-left: 150px;
+    margin-top: 65px;
+}
+
+.adviser2-detail h3{
+    font-size: 50px;
+    font-family: "ヒラギノ角ゴシック";
+    color: #5C5337;
+    width: 1634px;
+    background-color: #DCEB98;
+    padding-left: 44px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.adviser2-content{
+    display: flex;
+    margin-top: 15px;
+}
+
+.adviser2-text p{
+    font-size: 30px;
+    color: #5C5337;
+    line-height: 20px;
+    margin-left: 30px;
+}
+
+.adviser2-text span{
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration:underline;
+    text-decoration-color:#dceb98;
+    color: #5C5337;
+    margin-left: 15px;
+}
+
+.adviser2-memo p{
+    font-size: 25px;
+}
+
+/* その後、1級（講師）、シニア（認定講師）へステップアップ */
+.adviser1-detail{
+    margin-left: 150px;
+    margin-top: 65px;
+}
+
+.adviser1-detail h3{
+    font-size: 50px;
+    font-family: "ヒラギノ角ゴシック";
+    color: #5C5337;
+    width: 1634px;
+    background-color: #DCEB98;
+    padding-left: 44px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.adviser1-content{
+    display: flex;
+    margin-top: 15px;
+}
+
+.adviser1-text p{
+    font-size: 30px;
+    color: #5C5337;
+    line-height: 20px;
+    margin-left: 30px;
+}
+
+/* お問い合わせボタン */
+
+.t-training-lesson a img{
+    margin-left: 730px;
+    margin-bottom: 130px;
+    margin-top: 96px;
+}
+
+/* 料金表 */
+.price h3{
+    font-size: 57px;
+    font-family: "ヒラギノ角ゴシック";
+    color: #5C5337;
+    width: 1620px;
+    background-color: #DCEB98;
+    margin-left: 150px;
+    padding: 59px 0 58px 70px;
+}
+
+img[src="img/price.png"]{
+    margin-left: 150px;
+    margin-top: 81px;
+}
+
+/* 
+[footer]のスタイルシート
+*/
+.block-footer{
+    background-color: #C6E82D;
+    height: 175px;
+}
+
+.block-footer p{
+    font-family: "ヒラギノ角ゴシック";
+    font-size: 15px;
+    text-align: center;
+    padding-top: 80px;
+    color: #5C5337;
+}
