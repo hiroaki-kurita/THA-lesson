@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    max-width: 1920px;
 }
 
 img {
@@ -17,11 +18,16 @@ ul{
 
 a{
     text-decoration:none; 
-    color: #5C5337;
+    color: #FFF
 }
+
 h1,h2,h3,h4,h5,h6{
     margin-block-start: 0px;
     margin-block-end: 0px;
+}
+
+h3,h4,h5,h6{
+    font-weight: 500;
 }
 
 /* 
@@ -30,8 +36,8 @@ h1,h2,h3,h4,h5,h6{
 .block-header{
     display: flex;
     width: 100%;
-    height: 126px;
-    background-color: #C6E82D;
+    height: 179px;
+    background-color: #747D54;
 }
 
 .block-header img{
@@ -40,7 +46,7 @@ h1,h2,h3,h4,h5,h6{
 
 ul.header-list{
     display: flex;
-    margin: 48px 158px 48px 904px;
+    margin: 78px 158px 48px 904px;
     width: 670px;
     padding-inline-start: 0px;
 }
@@ -68,7 +74,6 @@ ul.header-list{
     height: 1000px;
 }
 
-
 .main-title h2{
     font-size: 49px;
     color: #14120E;
@@ -86,8 +91,19 @@ ul.header-list{
 }
 
 /* 認定講座について */
+#lesson-detail {
+    position: relative;
+}
+
+/* 食材１の位置決め */
+img[src="img/food1.png"]{
+    position: absolute;
+    right: 1220px;
+    bottom: 740px;
+}
+
 #lesson-detail h3{
-    margin-top: 123px;
+    margin-top: -43px;
     color: #5C5337;
     text-align: center;
     font-size: 70px;
@@ -95,6 +111,7 @@ ul.header-list{
 }
 
 #lesson-detail h4{
+    position: relative;
     margin-left: 254px;
     margin-top: 80px;
     font-family: "ヒラギノ明朝 ProN";
@@ -106,8 +123,9 @@ ul.header-list{
     align-items: center;
     color: #5C5337;
     font-size: 50px;
-    box-shadow: 0 0 0 30px #DCEB98, 0 0 0 6px;
-    background-color: #DCEB98;
+    box-shadow: 0 0 0 30px #D2E09F, 0 0 0 6px;
+    background-color: #D2E09F;
+    z-index: 1;
 }
 
 #lesson-detail img{
@@ -134,6 +152,10 @@ ul.header-list{
 }
 
 /* 受講者の声 */
+.customer-voice{
+    position: relative;
+}
+
 .voice-title{
     height: 245px;
     margin-top: 123px;
@@ -146,6 +168,7 @@ ul.header-list{
     padding-left: 211px;
     line-height: 100px;
 }
+
 /* 1人目 */
 .voice-first{
     color: #5C5337;
@@ -183,7 +206,11 @@ ul.header-list{
     padding-left: 55px;
     padding-top: 62px;
     line-height: 20px;
+    box-sizing: content-box;
     box-shadow: 6px 0 25px rgba(0,0,0,.3);
+    background-color: #FFF;
+    position: relative;
+    z-index: 1;
 }
 
 .voice-second span{
@@ -208,6 +235,9 @@ ul.header-list{
     padding-top: 62px;
     line-height: 20px;
     box-shadow: 6px 0 25px rgba(0,0,0,.3);
+    background-color: #FFF;
+    position: relative;
+    z-index: 1;
 }
 
 .voice-third span{
@@ -218,6 +248,13 @@ ul.header-list{
 .third-name p{
     padding-left: 1205px;
     padding-top: 70px;
+}
+
+/* 食材2の位置決め */
+img[src="img/food2.png"]{
+    position: absolute;
+    top: 957px;
+    left: 780px;
 }
 
 /* 資格取得で描くステップアップ */
@@ -233,8 +270,8 @@ ul.header-list{
     align-items: center;
     color: #5C5337;
     font-size: 50px;
-    box-shadow: 0 0 0 30px #DCEB98, 0 0 0 6px;
-    background-color: #DCEB98;
+    box-shadow: 0 0 0 30px #D2E09F, 0 0 0 6px;
+    background-color: #D2E09F;
 }
 
 .step-text{
@@ -245,17 +282,35 @@ ul.header-list{
     font-size: 30px
 }
 
-.license-step img{
+img[src="img/stepup.png"]{
     margin-left: 150px;
+    position: relative;
+    z-index: 1;
+}
+
+img[src="img/background-green.png"]{
+    margin-top: -450px;
 }
 
 /* 基礎講座 */
+.basic-lesson{
+    position: relative;
+    background-image: url(img/background-wood.png);
+}
+
+/* 食材3の位置決め */
+img[src="img/food3.png"]{
+    position: absolute;
+    top: -360px;
+    right: -280px;
+}
+
 .b-lesson-title h3{
     font-size: 57px;
     font-family: "ヒラギノ角ゴシック";
     color: #5C5337;
     width: 1620px;
-    background-color: #DCEB98;
+    background-color: #D2E09F;
     margin-left: 150px;
     padding: 59px 0 58px 70px;
 }
@@ -301,7 +356,7 @@ ul.header-list{
     font-family: "ヒラギノ角ゴシック";
     color: #5C5337;
     width: 1480px;
-    background-color: #DCEB98;
+    background-color: #F1FAD2;
     padding-top: 24px;
     padding-left: 167px;
     margin-left: -154px;
@@ -347,7 +402,7 @@ ul.header-list{
     font-family: "ヒラギノ角ゴシック";
     color: #5C5337;
     width: 1634px;
-    background-color: #DCEB98;
+    background-color: #F1FAD2;
     padding-left: 44px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -390,7 +445,7 @@ ul.header-list{
     font-family: "ヒラギノ角ゴシック";
     color: #5C5337;
     width: 1480px;
-    background-color: #DCEB98;
+    background-color: #F1FAD2;
     padding-top: 24px;
     padding-left: 167px;
     margin-left: -154px;
@@ -441,12 +496,16 @@ ul.header-list{
 }
 
 /* 育成講座 */
+.t-training-lesson{
+    background-image: url(img/background-wood2.png);
+}
+
 .t-lesson-title h3{
     font-size: 57px;
     font-family: "ヒラギノ角ゴシック";
     color: #5C5337;
     width: 1620px;
-    background-color: #DCEB98;
+    background-color: #D2E09F;
     margin-left: 150px;
     padding: 59px 0 58px 70px;
 }
@@ -486,7 +545,7 @@ ul.header-list{
     font-family: "ヒラギノ角ゴシック";
     color: #5C5337;
     width: 1634px;
-    background-color: #DCEB98;
+    background-color: #F1FAD2;
     padding-left: 44px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -528,7 +587,7 @@ ul.header-list{
     font-family: "ヒラギノ角ゴシック";
     color: #5C5337;
     width: 1634px;
-    background-color: #DCEB98;
+    background-color: #F1FAD2;
     padding-left: 44px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -547,7 +606,6 @@ ul.header-list{
 }
 
 /* お問い合わせボタン */
-
 .t-training-lesson a img{
     margin-left: 730px;
     margin-bottom: 130px;
@@ -555,11 +613,15 @@ ul.header-list{
 }
 
 /* 料金表 */
+.price{
+    background-image: url(img/background-wood3.png);
+}
+
 .price h3{
     font-size: 57px;
     font-family: "ヒラギノ角ゴシック";
     color: #5C5337;
-    width: 1620px;
+    width: 1550px;
     background-color: #DCEB98;
     margin-left: 150px;
     padding: 59px 0 58px 70px;
@@ -568,13 +630,240 @@ ul.header-list{
 img[src="img/price.png"]{
     margin-left: 150px;
     margin-top: 81px;
+    width: 1620px;
+}
+
+/* 当協会について */
+#association-about{
+    position: relative;
+}
+
+#association-about h3{
+    font-family: "ヒラギノ明朝 ProN";
+    font-size: 85px;
+    color: #5C5337;
+    margin-left: 664px;
+    margin-bottom: 145px;
+}
+
+img[src="img/logo-background.png"]{
+   position: absolute;
+   top: -80px;
+   left: -230px;
+}
+
+#association-about iframe{
+    position: relative;
+    margin-left: 475px;
+    margin-bottom: 145px;
+    z-index: 1;
+}
+
+#association-about p{
+    margin-left: 150px;
+    font-size: 30px;
+    color: #5C5337;
+}
+
+/* 協会概要 */
+#association-overview h3{
+    font-size: 70px;
+    width: 100%;
+    height: 160px;
+    background-color: #747D54;
+    color: #FFF;
+    margin-top: 223px;
+    margin-bottom: 112px;
+    text-align: center;
+    padding-top: 90px;
+}
+
+#association-overview h4{
+    font-size: 60px;
+    text-decoration:underline;
+    text-decoration-color: #FF8748;
+    color: #5C5337;
+    margin-left: 773.5px;
+}
+
+#association-overview p{
+    font-size: 30px;
+    color: #5C5337;
+    margin-left: 150px;
+}
+
+#association-overview img{
+    margin: 100px auto 185px 150px;
+}
+
+/* 代表挨拶 */
+.greeting{
+    background-image: url(img/background-kitchen.png);
+    height: 1495px;
+}
+
+.greeting h4{
+    font-size: 60px;
+    text-decoration:underline;
+    text-decoration-color: #FF8748;
+    color: #5C5337;
+    margin-left: 773.5px;
+}
+
+.greeting-content{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 105px;
+}
+
+.greeting-content p{
+    margin-right: 70px;
+    font-size: 30px;
+    line-height: 20px;
+}
+
+.greeting-text img {
+    margin-top: 123px;
+    margin-left: 451px;
+}
+
+/* お問合わせ */
+#mail-form h3{
+    font-size: 70px;
+    width: 100%;
+    height: 160px;
+    background-color: #747D54;
+    color: #FFF;
+    margin-bottom: 112px;
+    text-align: center;
+    padding-top: 90px;
+}
+
+#mail-form p{
+    margin-left: 150px;
+    font-size: 30px;
+    color: #5C5337;
+}
+
+.form-text{
+    margin-top: 135px;
+}
+
+/*  フォーム入力欄 */
+.name input, .phone input, .email input, .address input, .reserve-1 input, .reserve-2 input, .reserve-3 input, .memo input{
+    display: block;
+    background-color: #F7F7F7;
+    border: none;
+    box-shadow: 0 3px 6px rgba(0,0,0,.1);
+    color: #5C5337;
+    font-size: 40px;
+}
+
+/* ボックスの大きさ（予約希望日以外） */
+.name input, .phone input, .email input, .address input, .memo input{
+    width: 646px;
+    height: 80px;
+}
+
+/* ボックスの大きさ（予約希望日） */
+.reserve-1 input, .reserve-2 input, .reserve-3 input{
+    width: 502px;
+    height: 80px;
+}
+
+.name , .phone , .email, .sex, .age, .address , .reserve, .memo{
+    margin-top: 54px;
+    color: #5C5337;
+    font-size: 30px;
+}
+
+.form-text{
+    margin-left: 209px;
+}
+
+.form-text label{
+    padding-top: 52px;
+}
+
+/* ご予約希望日 */
+.reserve-list{
+    display: flex;
+}
+
+.reserve-title label{
+    margin-bottom: 25px;
+}
+
+.reserve label{
+    margin-right: 28px;
+}
+
+.reserve input{
+    margin-right: 28px;
+}
+
+/* ラジオボタン */
+.select input{
+    margin-right: 25px;
+    margin-left: 4em;
+    line-height: 2px;
+    top: -4px;
+    position: relative;
+}
+
+/* 質問内容記載欄 */
+.memo input{
+    margin-top: 22px;
+    width: 1561px; 
+    height: 520px;
+}
+
+/* メールポリシー */
+.mail-policy{
+    width: 862px;
+    height: 182px;
+    margin-left: 354px;
+    margin-top: 74px;
+    background-color: #F7F7F7;
+    padding-top: 22px;
+    box-shadow: 0 3px 6px rgba(0,0,0,.1);
+}
+
+.mail-policy span{
+    font-size: 14px;
+    color: #5C5337;
+    padding-left: 11px;
+}
+
+/* 送信ボタン */
+#mail-form button{
+    width: 229px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: #FF8748;
+    color: #FFF;
+    margin-left: 637px;
+    border: none;
+    font-size: 31px;
+    margin-top: 111px;
+}
+
+/* プライバシーポリシー */
+.privacy-policy{
+    margin-top: 162px;
+    margin-left: 743px;
+    margin-bottom: 49px;
+}
+
+.privacy-policy a{
+    margin-right: 166px;
 }
 
 /* 
 [footer]のスタイルシート
 */
 .block-footer{
-    background-color: #C6E82D;
+    background-color: #747D54;
     height: 175px;
 }
 
@@ -583,5 +872,5 @@ img[src="img/price.png"]{
     font-size: 15px;
     text-align: center;
     padding-top: 80px;
-    color: #5C5337;
+    color: #FFF;
 }

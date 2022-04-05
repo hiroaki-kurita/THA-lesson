@@ -17,10 +17,10 @@
                 <a href="#lesson-detail">認定講座</a>
             </li>
             <li class="about">
-                <a href="#">協会について</a>
+                <a href="#association-about">協会について</a>
             </li>
             <li class="overview">
-                <a href="#">協会概要</a>
+                <a href="#association-overview">協会概要</a>
             </li>
         </ul>
     </div>
@@ -32,6 +32,7 @@
         <div id="lesson-detail">
             <h3>認定講座について</h3>
             <h4>大切な自分と家族の為に、今、健康についてできること</h4>
+            <img src="img/food1.png" alt="食材１">
             <div class="detail-content">
                 <div class="detail-image">
                     <img src="img/familycooking.png" alt="家族団欒の食卓">
@@ -83,6 +84,7 @@
                     <p>T.H.様</p>
                 </div>
             </div>
+            <img src="img/food2.png" alt="食材2">
         </div>
         <div class="license-step">
             <h4>資格取得で描くステップアップ</h4>
@@ -91,8 +93,10 @@
                 <p>ら、キャリアまでしっかり描けるものまで、各種取り揃えております。</p>
             </div>
             <img src="img/stepup.png" alt="ステップアップイメージ図">
+            <img src="img/background-green.png" alt="緑背景">
         </div>
         <div class="basic-lesson">
+            <img src="img/food3.png" alt="食材3">
             <div class="b-lesson-title">
                 <h3>基礎講座</h3>
                 <h4>美と健康を確実に手に入れるサポートを。</h4>
@@ -280,23 +284,43 @@
                 <a href="#form"><img src="img/inquiry-button.png" alt="お問い合わせボタン"></a>
             </div>
         </div>
-        <div class="association-about">
+        <div id="association-about">
             <h3>当協会について</h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/miHgdyyHj1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <img src="img/logo-background.png" alt="背景ロゴ">
+            <iframe width="970" height="699" src="https://www.youtube.com/embed/miHgdyyHj1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p>身体は食べたものでしか作られない、という事で 　現在のその方の不調や健康状態に合わせた 必要な知識や、個別にカ</p>
             <p>スタマイズした料理メニューをご提案。</p>
             <p>レシピ提案だけでなく、作り方講習や詳しく解説した動画を提供する事で、 健康的な食習慣が作れるようにする。</p>
             <p>そうする事で、健康を維持し、将来の不安をなくして 心身共に健康な身体作りをめざす。</p>
         </div>
-        <div class="association-overview">
+        <div id="association-overview">
             <h3>協会概要</h3>
-            <h4>経営理念</h4>
-            <p>テキスト。テキスト。テキスト。テキスト。テキスト。テキス</p>
-            <p>テキスト。テキスト。テキスト。テキスト。テキスト。テキス</p>
-            <p>テキスト。テキスト。テキスト。テキスト。テキスト。テキス</p>
-            <p>テキスト。テキスト。テキスト。テキスト。テキスト。テキス</p>
-            <img src="img/toshiko.png" alt="栗田登志子のサイン">
-            <img src="img/toshiko2.png" alt="栗田登志子の写真">
+            <h4>　経営理念　</h4>
+            <p>テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。</p>
+            <p>テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。</p>
+            <p>テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。</p>
+            <p>テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。</p>
+            <p>テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。</p>
+            <p>テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。</p>
+            <img src="img/association.png" alt="協会概要">
+        </div>
+        <div class="greeting">
+            <h4>　代表挨拶　</h4>
+            <div class="greeting-content">
+                <div class="greeting-text">
+                    <p>テキスト。テキスト。テキスト。テキスト。テキスト。テキス</p>
+                    <p>テキスト。テキスト。テキスト。テキスト。テキスト。テキス</p>
+                    <p>テキスト。テキスト。テキスト。テキスト。テキスト。テキス</p>
+                    <p>テキスト。テキスト。テキスト。テキスト。テキスト。テキス</p>
+                    <p>テキスト。テキスト。テキスト。テキスト。テキスト。テキス</p>
+                    <p>テキスト。テキスト。テキスト。テキスト。テキスト。テキス</p>
+                    <p>テキスト。テキスト。テキスト。テキスト。テキスト。テキス</p>
+                    <img src="img/toshiko.png" alt="栗田登志子のサイン">
+                </div>
+                <div class="greeting-image">
+                    <img src="img/toshiko2.png" alt="栗田登志子の写真">
+                </div>
+            </div>
         </div>
         <div id="mail-form">
             <h3>お問合わせ</h3>
@@ -319,43 +343,60 @@
                         <input type="text" name="email" value="">
                     </div>
                     <div class="sex">
-                        <input type="radio" name="woman" value="" checked >女性
-                        <input type="radio" name="man" value="" >男性
-                        <input type="radio" name="other" value="" >その他
+                        <label>性別</label>
+                        <div class="select">
+                            <input type="radio" name="sex" value="" style="transform:scale(2.0)" checked>女性
+                            <input type="radio" name="sex" value="" style="transform:scale(2.0)">男性
+                            <input type="radio" name="sex" value="" style="transform:scale(2.0)">その他
+                        </div>
                     </div>
                     <div class="age">
-                        <input type="radio" name="recruitment" value="" checked >10代
-                        <input type="radio" name="recruitment" value="" >20代
-                        <input type="radio" name="recruitment" value="" >30代
-                        <input type="radio" name="recruitment" value="" >40代
-                        <input type="radio" name="recruitment" value="" >50代
-                        <input type="radio" name="recruitment" value="" >60代以上
+                        <label>ご年齢</label>
+                        <div class="select">
+                            <input type="radio" name="age" value="" style="transform:scale(2.0)" checked>10代
+                            <input type="radio" name="age" value="" style="transform:scale(2.0)">20代
+                            <input type="radio" name="age" value="" style="transform:scale(2.0)">30代
+                            <input type="radio" name="age" value="" style="transform:scale(2.0)">40代
+                            <input type="radio" name="age" value="" style="transform:scale(2.0)">50代
+                            <input type="radio" name="age" value="" style="transform:scale(2.0)">60代以上
+                        </div>
                     </div>
                     <div class="address">
                         <label>お住まいの都道府県</label>
                         <input type="text" name="address" value="">
                     </div>
                     <div class="reserve">
-                        <label>第１希望</label>
-                        <input type="text" name="reserve1" value="">
-                        <label>第２希望</label>
-                        <input type="text" name="reserve2" value="">
-                        <label>第３希望</label>
-                        <input type="text" name="reserve3" value="">
+                        <div class="reserve-title">
+                            <label>ご予約希望日</label>
+                        </div>
+                        <div class="reserve-list">
+                            <div class="reserve-1">
+                                <label>第１希望</label>
+                                <input type="text" name="reserve1" value="">
+                            </div>
+                            <div class="reserve-2">
+                                <label>第２希望</label>
+                                <input type="text" name="reserve2" value="">
+                            </div>
+                            <div class="reserve-3">
+                                <label>第３希望</label>
+                                <input type="text" name="reserve3" value="">
+                            </div>
+                        </div>
                     </div>
                     <div class="memo">
                         <label>ご質問がございましたら、ご自由にご記載ください。</label>
                         <input type="text" name="memo" value="">
                     </div>
                     <div class="mail-policy">
-                        <p>Docomo・au・softbankのキャリアメールやicloud.comのメールアドレスは、こちらからのメールが届きにくい場合があります。</p>
-                        <p>yahoo.co.jp（yahooメール）、gmail.com（Gmail）でのご登録を推奨しています。ご登録いただいたメールアドレスは弊社プライバ</p>
-                        <p>シーポリシーに基づき厳重に管理します。また、ご登録いただいたメールアドレスに無料のメールマガジンをお送りしています。登録</p>
-                        <p>解除をご希望の際にはメール内の解除リンクから簡単に登録解除できます。また、メールマガジンの中で弊社が提供している有料サー</p>
-                        <p>ビスをご案内することがございますが、無料のメールマガジンから自動的に有料サービスに登録されるようなことは一切ありませんの</p>
-                        <p>で、ご安心ください。</p>
+                        <span>Docomo・au・softbankのキャリアメールやicloud.comのメールアドレスは、こちらからのメールが届きにくい場合があります。<br>
+                        <span>yahoo.co.jp（yahooメール）、gmail.com（Gmail）でのご登録を推奨しています。ご登録いただいたメールアドレスは弊社プライバ<br>
+                        <span>シーポリシーに基づき厳重に管理します。また、ご登録いただいたメールアドレスに無料のメールマガジンをお送りしています。登録<br>
+                        <span>解除をご希望の際にはメール内の解除リンクから簡単に登録解除できます。また、メールマガジンの中で弊社が提供している有料サー<br>
+                        <span>ビスをご案内することがございますが、無料のメールマガジンから自動的に有料サービスに登録されるようなことは一切ありませんの<br>
+                        <span>で、ご安心ください。</span>
                     </div>
-                    <button type="submit">送信</button>
+                    <button type="submit">送　信</button>
                 </form>
             </div>
         </div>
