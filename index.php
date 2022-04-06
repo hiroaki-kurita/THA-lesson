@@ -1,3 +1,27 @@
+<!-- バックエンド -->
+<?php 
+    // フォームのボタンが押されたら
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        // フォームから送信されたデータを各変数に格納
+        $name = $_POST["name"];
+        $phone = $_POST["phone"];
+        $email = $_POST["email"];
+        $sex = $_POST["sex"];
+        $age = $_POST["age"];
+        $address = $_POST["address"];
+        $reserve1 = $_POST["reserve1"];
+        $reserve2 = $_POST["reserve2"];
+        $reserve3 = $_POST["reserve3"];
+        $memo = $_POST["memo"];
+    }
+    if (isset($_POST["submit"])) {
+        // サンクスページに画面遷移させる
+        header("Location:http://localhost:8000/THA-lesson/thanks.php");
+        exit;
+    }
+?>
+
+<!-- フロントエンド -->
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -329,7 +353,7 @@
             <p><br></p>
             <p>内容に間違いがなければ次の確認画面で【送信】ボタンを押してください。</p>
             <div class="form-text">
-                <form action="confirm.php" method="post">
+                <form action="thanks.php" method="post">
                     <div class="name">
                         <label>ご氏名</label>
                         <input type="text" name="name" value="">
@@ -345,25 +369,73 @@
                     <div class="sex">
                         <label>性別</label>
                         <div class="select">
-                            <input type="radio" name="sex" value="" style="transform:scale(2.0)" checked>女性
-                            <input type="radio" name="sex" value="" style="transform:scale(2.0)">男性
-                            <input type="radio" name="sex" value="" style="transform:scale(2.0)">その他
+                            <input type="radio" name="sex" value="女性" style="transform:scale(2.0)" checked>女性
+                            <input type="radio" name="sex" value="男性" style="transform:scale(2.0)">男性
+                            <input type="radio" name="sex" value="その他" style="transform:scale(2.0)">その他
                         </div>
                     </div>
                     <div class="age">
                         <label>ご年齢</label>
                         <div class="select">
-                            <input type="radio" name="age" value="" style="transform:scale(2.0)" checked>10代
-                            <input type="radio" name="age" value="" style="transform:scale(2.0)">20代
-                            <input type="radio" name="age" value="" style="transform:scale(2.0)">30代
-                            <input type="radio" name="age" value="" style="transform:scale(2.0)">40代
-                            <input type="radio" name="age" value="" style="transform:scale(2.0)">50代
-                            <input type="radio" name="age" value="" style="transform:scale(2.0)">60代以上
+                            <input type="radio" name="age" value="10代" style="transform:scale(2.0)" checked>10代
+                            <input type="radio" name="age" value="20代" style="transform:scale(2.0)">20代
+                            <input type="radio" name="age" value="30代" style="transform:scale(2.0)">30代
+                            <input type="radio" name="age" value="40代" style="transform:scale(2.0)">40代
+                            <input type="radio" name="age" value="50代" style="transform:scale(2.0)">50代
+                            <input type="radio" name="age" value="60代以上" style="transform:scale(2.0)">60代以上
                         </div>
                     </div>
                     <div class="address">
                         <label>お住まいの都道府県</label>
-                        <input type="text" name="address" value="">
+                        <select name="address">
+                            <option value="北海道">北海道</option>
+                            <option value="青森県">青森県</option>
+                            <option value="岩手県">岩手県</option>
+                            <option value="宮城県">宮城県</option>
+                            <option value="秋田県">秋田県</option>
+                            <option value="山形県">山形県</option>
+                            <option value="福島県">福島県</option>
+                            <option value="茨城県">茨城県</option>
+                            <option value="栃木県">栃木県</option>
+                            <option value="群馬県">群馬県</option>
+                            <option value="埼玉県">埼玉県</option>
+                            <option value="千葉県">千葉県</option>
+                            <option value="東京都">東京都</option>
+                            <option value="神奈川県">神奈川県</option>
+                            <option value="新潟県">新潟県</option>
+                            <option value="富山県">富山県</option>
+                            <option value="石川県">石川県</option>
+                            <option value="福井県">福井県</option>
+                            <option value="山梨県">山梨県</option>
+                            <option value="長野県">長野県</option>
+                            <option value="岐阜県">岐阜県</option>
+                            <option value="静岡県">静岡県</option>
+                            <option value="愛知県">愛知県</option>
+                            <option value="三重県">三重県</option>
+                            <option value="滋賀県">滋賀県</option>
+                            <option value="京都府">京都府</option>
+                            <option value="大阪府">大阪府</option>
+                            <option value="兵庫県">兵庫県</option>
+                            <option value="奈良県">奈良県</option>
+                            <option value="和歌山県">和歌山県</option>
+                            <option value="鳥取県">鳥取県</option>
+                            <option value="島根県">島根県</option>
+                            <option value="岡山県">岡山県</option>
+                            <option value="広島県">広島県</option>
+                            <option value="山口県">山口県</option>
+                            <option value="徳島県">徳島県</option>
+                            <option value="香川県">香川県</option>
+                            <option value="愛媛県">愛媛県</option>
+                            <option value="高知県">高知県</option>
+                            <option value="福岡県">福岡県</option>
+                            <option value="佐賀県">佐賀県</option>
+                            <option value="長崎県">長崎県</option>
+                            <option value="熊本県">熊本県</option>
+                            <option value="大分県">大分県</option>
+                            <option value="宮崎県">宮崎県</option>
+                            <option value="鹿児島県">鹿児島県</option>
+                            <option value="沖縄県">沖縄県</option>
+                        </select>
                     </div>
                     <div class="reserve">
                         <div class="reserve-title">
@@ -372,15 +444,15 @@
                         <div class="reserve-list">
                             <div class="reserve-1">
                                 <label>第１希望</label>
-                                <input type="text" name="reserve1" value="">
+                                <input type="datetime-local" name="reserve1" value="">
                             </div>
                             <div class="reserve-2">
                                 <label>第２希望</label>
-                                <input type="text" name="reserve2" value="">
+                                <input type="datetime-local" name="reserve2" value="">
                             </div>
                             <div class="reserve-3">
                                 <label>第３希望</label>
-                                <input type="text" name="reserve3" value="">
+                                <input type="datetime-local" name="reserve3" value="">
                             </div>
                         </div>
                     </div>
@@ -408,5 +480,8 @@
     <div class="block-footer">
         <p>Copyright ©︎ トータルヘルスケア協会</p>
     </div>
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script src="form.js"></script>
 </body>
 </html>

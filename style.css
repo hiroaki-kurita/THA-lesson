@@ -4,7 +4,6 @@
 
 body {
     margin: 0;
-    max-width: 1920px;
 }
 
 img {
@@ -253,8 +252,8 @@ img[src="img/food1.png"]{
 /* 食材2の位置決め */
 img[src="img/food2.png"]{
     position: absolute;
-    top: 957px;
-    left: 780px;
+    top: 980px;
+    left: 745px;
 }
 
 /* 資格取得で描くステップアップ */
@@ -301,8 +300,7 @@ img[src="img/background-green.png"]{
 /* 食材3の位置決め */
 img[src="img/food3.png"]{
     position: absolute;
-    top: -360px;
-    right: -280px;
+    top: -150px;
 }
 
 .b-lesson-title h3{
@@ -750,7 +748,7 @@ img[src="img/logo-background.png"]{
 }
 
 /*  フォーム入力欄 */
-.name input, .phone input, .email input, .address input, .reserve-1 input, .reserve-2 input, .reserve-3 input, .memo input{
+.name input, .phone input, .email input, .address select, .reserve-1 input, .reserve-2 input, .reserve-3 input, .memo input{
     display: block;
     background-color: #F7F7F7;
     border: none;
@@ -760,7 +758,7 @@ img[src="img/logo-background.png"]{
 }
 
 /* ボックスの大きさ（予約希望日以外） */
-.name input, .phone input, .email input, .address input, .memo input{
+.name input, .phone input, .email input, .address select, .memo input{
     width: 646px;
     height: 80px;
 }
