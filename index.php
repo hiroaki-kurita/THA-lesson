@@ -310,7 +310,7 @@
         </div>
         <div id="association-about">
             <h3>当協会について</h3>
-            <img src="img/logo-background.png" alt="背景ロゴ">
+            <img src="img/logo-background.jpg" alt="背景ロゴ">
             <iframe width="970" height="699" src="https://www.youtube.com/embed/miHgdyyHj1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p>身体は食べたものでしか作られない、という事で 　現在のその方の不調や健康状態に合わせた 必要な知識や、個別にカ</p>
             <p>スタマイズした料理メニューをご提案。</p>
