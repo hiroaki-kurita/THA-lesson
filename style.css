@@ -301,6 +301,7 @@ img[src="img/background-green.png"]{
 img[src="img/food3.png"]{
     position: absolute;
     top: -150px;
+    right: 0px;
 }
 
 .b-lesson-title h3{
