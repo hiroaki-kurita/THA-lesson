@@ -20,7 +20,6 @@
         exit;
     }
 ?>
-
 <!-- フロントエンド -->
 <!DOCTYPE html>
 <html lang="ja">
@@ -30,33 +29,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <title>Document</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- スタイルシート -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="block-header">
+    <div class="block-header container-fluid px-0">
         <img src="img/logo.png" alt="THAロゴ">
-        <ul class="header-list">
-            <li class="lesson">
-                <a href="#lesson-detail">認定講座</a>
+        <ul class="header-list text-end p-5">
+            <li class="lesson mx-5 my-3 mt-4">
+                <a href="#lesson-detail" class="my-5">認定講座</a>
             </li>
-            <li class="about">
+            <li class="about mx-5 my-3 mt-4">
                 <a href="#association-about">協会について</a>
             </li>
-            <li class="overview">
+            <li class="overview mx-5 my-3 mt-4">
                 <a href="#association-overview">協会概要</a>
             </li>
         </ul>
     </div>
-    <div class="block-main">
-        <div class="main-title">
-            <h2>トータルヘルスケアで、仕事も、健康も、グレードアップ</h2>
-            <h1>健康も、幸せも、私はここで手に入れた</h1>
+    <div class="block-main container-fluid px-0">
+        <div class="main-title-all">
+            <div class="main-title">
+                <h2 class="display-6">トータルヘルスケアで、仕事も、健康も、グレードアップ</h2>
+                <h1 class="display-3 mt-5">健康も、幸せも、私はここで手に入れた</h1>
+            </div>
         </div>
         <div id="lesson-detail">
-            <h3>認定講座について</h3>
-            <h4>大切な自分と家族の為に、今、健康についてできること</h4>
-            <img src="img/food1.png" alt="食材１">
+            <h3 class="display-3 text-center">認定講座について</h3>
+            <h4 class="display-6">大切な自分と家族の為に、今、健康についてできること</h4>
             <div class="detail-content">
                 <div class="detail-image">
                     <img src="img/familycooking.png" alt="家族団欒の食卓">
@@ -80,84 +82,85 @@
             </div>
         </div>
         <div class="customer-voice">
-            <div class="voice-title">
-                <h4>受講された皆様から</h4>
-                <h4>たくさんのお声をいただいております！</h4>
+            <div class="voice-title pt-5">
+                <h4 class="display-5">受講された皆様から</h4>
+                <h4 class="display-5 pt-3">たくさんのお声をいただいております！</h4>
             </div>
-            <div class="voice-first">
+            <div class="voice-first p-5">
                 <p>味噌汁の品目を増やすなど今の食生活に少し工夫するだけで改善することができ、育児中で時間のない</p>
                 <p>中でも実践しやすかったのと、<span>先生からアドバイスやフィードバックを頂くことで毎日続ける活力</span>にな</p>
                 <p>りました。</p>
-                <div class="first-name">
+                <div class="first-name text-end">
                     <p>N.K.様</p>
                 </div>
             </div>
-            <div class="voice-second">
+            <div class="voice-second p-5">
                 <p>先生から頂いたアドバイスを実践することで<span>食事の幅が広がりました。</span></p>
                 <p>何より先生に質問しやすい環境がとても助かりました。</p>
                 <p>私だけでなく、家族の食事の悩みにもアドバイスを下さり、子どもと一緒にご飯を作る機会が増えて家</p>
                 <p>族で美味しく食べることができました。</p>
-                <div class="second-name">
+                <div class="second-name text-end">
                     <p>M.Y.様</p>
                 </div>
             </div>
-            <div class="voice-third">
+            <div class="voice-third p-5">
                 <p>生活習慣の改善は、正しさだけでなく、<span>いかに自分らしく豊かな生活を送れるかだと思う。</span></p>
                 <p>10年後、20年後といった先の暮らしを描きながら、今一度振り返るよい機会になった。</p>
-                <div class="third-name">
+                <p><br></p>
+                <p><br></p>
+                <div class="third-name text-end">
                     <p>T.H.様</p>
                 </div>
             </div>
-            <img src="img/food2.png" alt="食材2">
         </div>
         <div class="license-step">
-            <h4>資格取得で描くステップアップ</h4>
+            <h4 class="display-5">資格取得で描くステップアップ</h4>
             <div class="step-text">
                 <p>トータルヘルスケア協会では、下記のような資格取得が可能です。とにかく実践的にヘルシーなお料理を学びたい方か</p>
                 <p>ら、キャリアまでしっかり描けるものまで、各種取り揃えております。</p>
             </div>
             <img src="img/stepup.png" alt="ステップアップイメージ図">
-            <img src="img/background-green.png" alt="緑背景">
+            <img src="img/background-green1.jpg" alt="緑背景">
+            <img src="img/background-green2.jpg" alt="緑背景2">
         </div>
         <div class="basic-lesson">
-            <img src="img/food3.png" alt="食材3">
             <div class="b-lesson-title">
-                <h3>基礎講座</h3>
-                <h4>美と健康を確実に手に入れるサポートを。</h4>
+                <h3 class="display-5 p-5">基礎講座</h3>
+                <h4 class="display-6 py-5">美と健康を確実に手に入れるサポートを。</h4>
             </div>
             <div class="b-lesson-detail">
                 <div class="b-lesson-image">
                     <img src="img/lesson-image.png" alt="レッスンのイメージ図">
                 </div>
                 <div class="b-lesson-text">
-                    <p>いつも美味しい食事を家族に振る舞うみなさんだと思います</p>
-                    <p>が、日々ついてまわるのが「今晩の献立」。できれば、家族</p>
-                    <p>が健康的でいられるものは何かを常に考えていらっしゃるの</p>
-                    <p>ではないかなと思います。</p>
+                    <p class="ps-5">いつも美味しい食事を家族に振る舞うみなさんだと思います</p>
+                    <p class="ps-5">が、日々ついてまわるのが「今晩の献立」。できれば、家族</p>
+                    <p class="ps-5">が健康的でいられるものは何かを常に考えていらっしゃるの</p>
+                    <p class="ps-5">ではないかなと思います。</p>
                     <p><br></p>
-                    <p>トータルヘルスケア協会が提供する基礎講座は、バランスの</p>
-                    <p>取れた食事レパートリーを増やし、確実に健康へと導いてい</p>
-                    <p>きます。</p>
+                    <p class="ps-5">トータルヘルスケア協会が提供する基礎講座は、バランスの</p>
+                    <p class="ps-5">取れた食事レパートリーを増やし、確実に健康へと導いてい</p>
+                    <p class="ps-5">きます。</p>
                     <p><br></p>
-                    <p>知識と実践で、より魅力ある生活に彩りを加えてみませんか？</p>
+                    <p class="ps-5">知識と実践で、より魅力ある生活に彩りを加えてみませんか？</p>
                 </div>
             </div>
-            <div class="basic-detail">
+            <div class="basic-detail mt-5">
                 <div class="basic-title">
                     <img src="img/trial.png" alt="トライアル">
-                    <h3>ベーシックコース</h3>
+                    <h3 class="display-5">ベーシックコース</h3>
                 </div>
                 <div class="basic-content">
-                    <div class="basic-image">
+                    <div class="basic-image pt-3">
                         <img src="img/basic-image.png" alt="ベーシックコースのイメージ図">
                     </div>
                     <div class="basic-text">
-                        <span>コース説明</span>
+                        <span class="display-6 mt-3">コース説明</span>
                         <p>バランスの取れた料理のレパートリーを増やし、美味しく食べて家族も</p>
                         <p>皆、健康になります。</p>
                         <p><br></p>
                         <p><br></p>
-                        <span>受講内容</span>
+                        <span class="display-6 mt-3">受講内容</span>
                         <p>1.オンラインレッスン　6回</p>
                         <p>2.Line及びZOOMサポート（30分×6回）</p>
                     </div>
@@ -178,7 +181,7 @@
                         <span>受講内容</span>
                         <p>1.オンラインレッスン　6回</p>
                         <p>2.Line及びZOOMサポート（30分×6回）</p>
-                        <p>3.あなたにカスタマイズしたオリジナルレシピと作り⽅動画</p>
+                        <p>3 mt-5.あなたにカスタマイズしたオリジナルレシピと作り⽅動画</p>
                         <p>　（料理によってはレシピのみ）・24 レシピ</p>
                     </div>
                 </div>
@@ -201,7 +204,7 @@
                         <span>受講内容</span>
                         <p>1.オンラインレッスン　6回</p>
                         <p>2.Line及びZOOMサポート（30分×6回）</p>
-                        <p>3.あなたにカスタマイズしたオリジナルレシピと作り⽅動画</p>
+                        <p>3 mt-5.あなたにカスタマイズしたオリジナルレシピと作り⽅動画</p>
                         <p>　（料理によってはレシピのみ）・24 レシピ</p>
                         <p>4.毎日の食事記録 アドバイス</p>
                         <p>5.栄養についての講義（90分×6回）</p>
@@ -218,13 +221,13 @@
             </div>
             <div class="inquiry-button">
                 <img src="img/speech-bubble.png" alt="吹き出し">
-                <a href="#form"><img src="img/inquiry-button.png" alt="お問い合わせボタン"></a>
+                <a href="#mail-form"><img src="img/inquiry-button.png" alt="お問い合わせボタン"></a>
             </div>
         </div>
         <div class="t-training-lesson">
             <div class="t-lesson-title">
-                <h3>育成講座</h3>
-                <h4>ご自分の家族だけではなく、仕事に繋げて、さらに輝く人生へ</h4>
+                <h3 class="display-5 p-5">育成講座</h3>
+                <h4 class="display-6 py-5">ご自分の家族だけではなく、仕事に繋げて、さらに輝く人生へ</h4>
             </div>
             <div class="t-lesson-detail">
                 <div class="t-lesson-image">
@@ -262,7 +265,7 @@
                             <p>　タマイズメニューを選択し、食事記録のアドバイスや 指導、サポートを行う。</p>
                         </div>
                         <p>2.パワーポイントを使ってのデモレッスン（グループレッスン）6回</p>
-                        <p>3.臨床栄養学についての講義（90分×3回）</p>
+                        <p>3 mt-5.臨床栄養学についての講義（90分×3回）</p>
                         <div class="adviser2-memo">
                             <p>　①糖尿病（ダイエット）についての知識と必要な栄養素</p>
                             <p>　②高血圧についての知識と必要な栄養素</p>
@@ -297,25 +300,20 @@
                         <p>毎日を送ることが可能になります。</p>
                     </div>
                 </div>
-            </div>
-            <a href="#form"><img src="img/inquiry-button.png" alt="お問い合わせボタン"></a>
+                <a href="#mail-form"><img src="img/inquiry-button.png" alt="お問い合わせボタン"></a>
+            </div>     
         </div>
         <div class="price">
             <h3>料金表</h3>
             <img src="img/price.png" alt="コース料金表">
             <div class="inquiry-button">
                 <img src="img/speech-bubble.png" alt="吹き出し">
-                <a href="#form"><img src="img/inquiry-button.png" alt="お問い合わせボタン"></a>
+                <a href="#mail-form"><img src="img/inquiry-button.png" alt="お問い合わせボタン"></a>
             </div>
         </div>
         <div id="association-about">
             <h3>当協会について</h3>
-            <img src="img/logo-background.jpg" alt="背景ロゴ">
             <iframe width="970" height="699" src="https://www.youtube.com/embed/miHgdyyHj1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p>身体は食べたものでしか作られない、という事で 　現在のその方の不調や健康状態に合わせた 必要な知識や、個別にカ</p>
-            <p>スタマイズした料理メニューをご提案。</p>
-            <p>レシピ提案だけでなく、作り方講習や詳しく解説した動画を提供する事で、 健康的な食習慣が作れるようにする。</p>
-            <p>そうする事で、健康を維持し、将来の不安をなくして 心身共に健康な身体作りをめざす。</p>
         </div>
         <div id="association-overview">
             <h3>協会概要</h3>
@@ -468,7 +466,7 @@
                         <span>ビスをご案内することがございますが、無料のメールマガジンから自動的に有料サービスに登録されるようなことは一切ありませんの<br>
                         <span>で、ご安心ください。</span>
                     </div>
-                    <button type="submit">送　信</button>
+                    <button type="submit">内 容 確 認</button>
                 </form>
             </div>
         </div>
@@ -477,11 +475,11 @@
             <a href="#">特定商取引法に基づく表示</a>
         </div>
     </div>
-    <div class="block-footer">
+    <div class="block-footer container-fluid px-0">
         <p>Copyright ©︎ トータルヘルスケア協会</p>
     </div>
     <!-- js -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3 mt-5.6.0.min.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
     <script src="form.js"></script>
 </body>
 </html>
