@@ -37,6 +37,7 @@
 </head>
 <body>
     <div class="container">
+        <!-- PC対応（ヘッダー） -->
         <div class="block-header">
             <img src="img/logo.png" alt="THAロゴ">
             <ul class="header-list">
@@ -51,17 +52,36 @@
                 </li>
             </ul>
         </div>
+        <!-- スマホ対応（ハンバーガーメニュー） -->
+        <div class="header-sp">
+            <img src="img/logo-sp.png" alt="スマホ用ロゴ">
+            <button type="button" class="header-button">
+                <div class="h-menu">
+                    <input id="h-menu_checkbox" class="h-menuCheckbox" type="checkbox">
+                    <label class="h-menu_icon" for="h-menu_checkbox"><span class="hamburger-icon"></span></label>
+                    <label id="h-menu_black" class="h-menuCheckbox" for="h-menu_checkbox"></label>
+                    <div id="h-menu_content">
+                        <ul>
+                            <li><a href="#">認定講座</a></li>
+                            <li><a href="#">協会について</a></li>
+                            <li><a href="#">協会概要</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </button>
+        </div>
         <div class="block-main">
             <div class="main-title">
                 <h2>トータルヘルスケアで、仕事も、健康も、グレードアップ</h2>
                 <h1>健康も、幸せも、私はここで手に入れた</h1>
             </div>
+            <img src="img/top-sp.png" alt="スマホ用トップ画像">
             <div id="lesson-detail">
                 <h3>認定講座について</h3>
                 <h4>大切な自分と家族の為に、今、健康についてできること</h4>
                 <div class="detail-content">
                     <div class="detail-image">
-                        <img src="img/familycooking.png" alt="家族団欒の食卓">
+                        <img src="img/familycooking.png" alt="家族団欒の食卓(PC)">
                     </div>
                     <div class="detail-text">
                         <p>母として、女性として、いつだって気になってくるのは「健康」のこと。女性としては、体型も気になるという方
@@ -70,6 +90,7 @@
                         入れられるのが「食事」です。<br>トータルヘルスケア協会では、美と健康に繋がるおいしいレッスンを、<span>万全サポートで学ぶことができます。</span>
                         <br>家族全員の健康の為に、まずは一歩踏み出してみませんか？</p>
                     </div>
+                    <img src="img/familycooking-sp.png" alt="家族団欒の食卓(スマホ)">
                 </div>
             </div>
             <div class="customer-voice">
@@ -121,7 +142,7 @@
                         <p>いつも美味しい食事を家族に振る舞うみなさんだと思います
                         が、日々ついてまわるのが「今晩の献立」。できれば、家族
                         が健康的でいられるものは何かを常に考えていらっしゃるの
-                        ではないかなと思います。
+                        ではないかなと思います。</p>
                         <p><br></p>
                         <p>トータルヘルスケア協会が提供する基礎講座は、
                         バランスの取れた食事レパートリーを増やし、確実に健康へと導いていきます。</p> 
@@ -277,8 +298,9 @@
             </div>
             <div id="association-about">
                 <h3>当協会について</h3>
-                <img src="img/logo-background.jpg" alt="背景ロゴ">
-                <iframe width="970" height="699" src="https://www.youtube.com/embed/miHgdyyHj1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="youtube">
+                    <iframe width="700" height="394" src="https://www.youtube.com/embed/miHgdyyHj1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
             <div id="association-overview">
                 <h3>協会概要</h3>
@@ -292,6 +314,7 @@
             <div class="greeting">
                 <h4>　代表挨拶　</h4>
                 <div class="greeting-content">
+                    <img src="img/toshiko2-sp.png" alt="栗田登志子の写真（スマホ用）">
                     <div class="greeting-text">
                         <p>『あなたの意識ひとつで、理想の未来は作れます』
                         日々の食事が身体を作ります。<br>
