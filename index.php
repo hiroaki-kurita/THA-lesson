@@ -50,7 +50,6 @@
                             <p>Copyright ©︎ トータルヘルスケア協会</p>
                         </div>
                     </div>
-
                 </div>
             </button>
         </div>
@@ -209,7 +208,7 @@
                 </div>
                 <div class="inquiry-button">
                     <img src="img/speech-bubble.png" alt="吹き出し">
-                    <a href="#form"><img src="img/inquiry-button.png" alt="お問い合わせボタン"></a>
+                    <a href="#mail-form"><img src="img/inquiry-button.png" alt="お問い合わせボタン"></a>
                 </div>
             </div>
             <div class="t-training-lesson">
@@ -268,7 +267,7 @@
                             <p>これにより様々な物事に生かすことができ、社会的にもより充実した毎日を送ることが可能になります。</p>
                         </div>
                     </div>
-                    <a href="#form"><img src="img/inquiry-button.png" alt="お問い合わせボタン"></a>
+                    <a href="#mail-form"><img src="img/inquiry-button.png" alt="お問い合わせボタン"></a>
                 </div>
             </div>
             <div class="price">
@@ -276,7 +275,7 @@
                 <img src="img/price.png" alt="コース料金表">
                 <div class="inquiry-button">
                     <img src="img/speech-bubble.png" alt="吹き出し">
-                    <a href="#form"><img src="img/inquiry-button.png" alt="お問い合わせボタン"></a>
+                    <a href="#mail-form"><img src="img/inquiry-button.png" alt="お問い合わせボタン"></a>
                 </div>
             </div>
             <div id="association-about">
@@ -326,7 +325,7 @@
                 <p><br></p>
                 <p>内容に間違いがなければ次の確認画面で【送信】ボタンを押してください。</p>
                 <div class="form-text">
-                    <form action="thanks.php" method="post">
+                    <form action="confirm.php" method="post">
                         <div class="name">
                             <label>ご氏名</label>
                             <input type="text" name="name" value="">
@@ -461,7 +460,6 @@
                 <h2>いますぐお問い合せ</h2>
             </a>
         </div>
-
     </div>
     <!-- js -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>

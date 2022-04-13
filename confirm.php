@@ -20,7 +20,6 @@
         exit;
     }
 ?>
-
 <!-- フロントエンド -->
 <!DOCTYPE html>
 <html lang="ja">
@@ -32,12 +31,48 @@
     <!-- Bootstrap読み込み -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- CSS読み込み -->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style_confirm.css">
 </head>
 <body>
     <div class="container">
-        <div><h1>Company Name</h1></div>
-        <div><h2>お問い合わせ</h2></div>
+        <div class="block-header">
+            <img src="img/logo.png" alt="THAロゴ">
+            <ul class="header-list">
+                <li class="lesson">
+                    <a href="#">認定講座</a>
+                </li>
+                <li class="about">
+                    <a href="#">協会について</a>
+                </li>
+                <li class="overview">
+                    <a href="#">協会概要</a>
+                </li>
+            </ul>
+        </div>
+        <!-- スマホ対応（ハンバーガーメニュー） -->
+        <div class="header-sp">
+            <img src="img/logo-sp.png" alt="スマホ用ロゴ">
+            <button type="button" class="header-button">
+                <div class="h-menu">
+                    <input id="h-menu_checkbox" class="h-menuCheckbox" type="checkbox">
+                    <label class="h-menu_icon" for="h-menu_checkbox"><span class="hamburger-icon"></span></label>
+                    <label id="h-menu_black" class="h-menuCheckbox" for="h-menu_checkbox"></label>
+                    <div id="h-menu_content">
+                        <ul>
+                            <li><a href="#">認定講座</a></li>
+                            <li><a href="#">協会について</a></li>
+                            <li><a href="#">協会概要</a></li>
+                        </ul>
+                        <div class="h-menu_policy">
+                            <p><a href="#">プライバシー</a><p>
+                            <p><a href="#">特定商取引法に基づく表示</a></p>
+                            <p>Copyright ©︎ トータルヘルスケア協会</p>
+                        </div>
+                    </div>
+                </div>
+            </button>
+        </div>
+        <!-- 問い合わせ内容確認 -->
         <div>
             <form action="thanks.php" method="post">
                 <input type="hidden" name="name" value="<?php echo $name; ?>">
@@ -50,54 +85,51 @@
                 <input type="hidden" name="reserve2" value="<?php echo $reserve2; ?>">
                 <input type="hidden" name="reserve3" value="<?php echo $reserve3; ?>">
                 <input type="hidden" name="memo" value="<?php echo $memo; ?>">
-                <h1 class="contact-title">お問い合わせ 内容確認</h1>
-                <p>お問い合わせ内容はこちらで宜しいでしょうか？<br>よろしければ「送信する」ボタンを押して下さい。</p>
-                <div>
-                    <div>
-                        <label>お名前</label>
-                        <p><?php echo $name; ?></p>
-                    </div>
-                    <div>
-                        <label>お電話番号</label>
-                        <p><?php echo $phone; ?></p>
-                    </div>
-                    <div>
-                        <label>メールアドレス</label>
-                        <p><?php echo $email; ?></p>
-                    </div>
-                    <div>
-                        <label>性別</label>
-                        <p><?php echo $sex; ?></p>
-                    </div>
-                    <div>
-                        <label>ご年齢</label>
-                        <p><?php echo $age; ?></p>
-                    </div>
-                    <div>
-                        <label>お住まいの都道府県</label>
-                        <p><?php echo $address; ?></p>
-                    </div>
-                    <div>
-                        <label>第１希望</label>
-                        <p><?php echo $reserve1; ?></p>
-                    </div>
-                    <div>
-                        <label>第２希望</label>
-                        <p><?php echo $reserve2; ?></p>
-                    </div>
-                    <div>
-                        <label>第３希望</label>
-                        <p><?php echo $reserve3; ?></p>
-                    </div>
-                    <div>
-                        <label>備考</label>
-                        <p><?php echo $memo; ?></p>
+                <div class="content_detail">
+                    <span>お問い合わせ内容はこちらで宜しいでしょうか？<br>よろしければ「送信する」ボタンを押して下さい。</span>
+                    <div class="qa">
+                        <div class="question">
+                            <p>お名前</p>
+                            <p>お電話番号</p>
+                            <p>メールアドレス</p>
+                            <p>性別</p>
+                            <p>ご年齢</p>
+                            <p>お住まいの都道府県</p>
+                            <p>第１希望</p>
+                            <p>第２希望</p>
+                            <p>第３希望</p>
+                            <p>ご質問内容</p>
+                        </div>
+                        <div class="answer">
+                            <p><?php echo $name; ?></p>
+                            <p><?php echo $phone; ?></p>
+                            <p><?php echo $email; ?></p>
+                            <p><?php echo $sex; ?></p>
+                            <p><?php echo $age; ?></p>
+                            <p><?php echo $address; ?></p>
+                            <p><?php echo $reserve1; ?></p>
+                            <p><?php echo $reserve2; ?></p>
+                            <p><?php echo $reserve3; ?></p>
+                            <p><?php echo $memo; ?></p>
+                        </div>
                     </div>
                 </div>
-                <input type="button" value="内容を修正する" onclick="history.back(-1)">
-                <button type="submit" name="submit">送信する</button>
+                <div class="btn">
+                    <input type="button" value="内 容 修 正" onclick="history.back(-1)">
+                    <button type="submit" name="submit">送信する</button>
+                </div>
             </form>
         </div>
+        <div class="privacy-policy">
+            <a href="#">プライバシー</a>
+            <a href="#">特定商取引法に基づく表示</a>
+        </div>
+        <div class="block-footer">
+            <p>Copyright ©︎ トータルヘルスケア協会</p>
+        </div>
     </div>
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script src="form.js"></script>
 </body>
 </html>

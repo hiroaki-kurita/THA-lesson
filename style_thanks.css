@@ -1,0 +1,259 @@
+/* 画面のスタイルシート*/
+body {
+    margin: 0;
+}
+img {
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration:none; 
+    color: #FFF;
+}
+
+/* [header]のスタイルシート*/
+.block-header{
+    width: 100%;
+    z-index: 100;
+    height: 179px;
+    display: flex;
+    background-color: #747D54;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+.block-header img{
+    margin: 13px auto 13px 50px;
+}
+ul.header-list{
+    display: flex;
+    margin: auto 0 auto 0;
+    width: 670px;
+    padding-inline-start: 0px;
+}
+.header-list li{
+    width: 120px;
+    font-family: "ヒラギノ角ゴシック";
+    font-size: 30px;
+}
+/* 協会について */
+.header-list .about{
+    margin-left: 90px;
+    width: 250px;
+}
+/* 
+スマホ用ハンバーガーメニュー（
+*/
+/* ヘッダーボタン */
+.header-sp{
+    display: none;
+}
+.header-button{
+    width: 69px;
+    height: 69px;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #747D54;
+    border: 1px solid #444;
+    z-index: 102;
+    position: fixed;
+    top: 0;
+}
+/*inputのcheckboxは非表示に*/
+.h-menuCheckbox {
+    display:none;
+}
+.h-menu_icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+/*3本線*/
+.hamburger-icon, .hamburger-icon::before, .hamburger-icon::after {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 102;
+    width: 32px;
+    height: 3px;
+    background-color: white;
+    cursor: pointer;
+}
+.hamburger-icon:before {
+    top: 14px;
+}
+.hamburger-icon:after {
+    top: 28px;
+}
+/*メニュー以外を暗くする*/
+#h-menu_black {
+    display: none;
+    position: fixed;
+    z-index: 98;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #747D54;
+    opacity: 0;
+    transition: .7s ease-in-out;
+}
+/*中身*/
+#h-menu_content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    width: 100%;
+    max-width: 320px;
+    height: 100vh;
+    padding: 53px 16px 16px;
+    background: #747D54;
+    overflow: auto;
+    transition: .3s ease-in-out;
+    -webkit-transform: translateX(-105%);
+    transform: translateX(-105%);
+}
+/*チェックボックスにチェックが入ったら表示*/
+input:checked ~ .h-menu_icon .hamburger-icon{
+    background: transparent;
+}
+input:checked ~ .h-menu_icon .hamburger-icon::before{
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top:10px;
+    z-index:999;
+}
+input:checked ~ .h-menu_icon .hamburger-icon::after{
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top:10px;
+    z-index:999;
+}
+input:checked ~ #h-menu_black {
+    display: block;
+    opacity: .8;
+}
+#h-menu_checkbox:checked ~ #h-menu_content {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    box-shadow: 6px 0 25px rgba(0,0,0,.15);
+}
+.h-menu_icon .hamburger-icon,
+.h-menu_icon .hamburger-icon::before,
+.h-menu_icon .hamburger-icon::after,
+#h-menu_black,
+#h-menu_content{
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+#h-menu_content ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#h-menu_content ul li{
+    border-bottom: solid 1px white;
+}
+#h-menu_content li a {
+    display: block;
+    color: white;
+    font-size: 14px;
+    padding: 24px;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+#h-menu_content li a:hover {
+    background: #FF8748;
+}
+/* 中身（プライバシーポリシー） */
+.h-menu_policy {
+    margin-top:100px;
+}
+.h-menu_policy p{
+    text-decoration: none;
+    font-size: 10px;
+    color: #FFF;
+    text-align: right;
+    margin-top: 10px;
+}
+/* レスポンシブ（スマホ） */
+@media screen and (max-width: 767px) { 
+    .header-sp{
+        display: flex;
+    }
+    .header-sp img{
+        margin-left: 40%; 
+        width: 69px;
+        height: 69px;
+    }
+    .header-sp button{
+        margin-left: auto;
+    }
+    .block-header{
+        display: none;
+    }
+}
+/* 送信完了 */
+.send-done p{
+    text-align: center;
+    color: #5C5337;
+    font-size: 20px;
+    margin: 40px auto;
+}
+.btn{
+    background-color: #FF8748;
+    border-radius: 50px;
+    color: #FFF;
+    font-size: 20px;
+    width: 229px;
+    height: 80px;
+    border-radius: 50px;
+    font-size: 31px;
+    margin: 140px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* プライバシーポリシー */
+.privacy-policy{
+    margin: 30px 0 30px 0;
+    text-align: center;
+}
+.privacy-policy a{
+    padding: 0 40px 0 90px;
+    color: #5C5337;
+}
+/* 
+[footer]のスタイルシート
+*/
+.block-footer{
+    background-color: #747D54;
+    height: 175px;
+}
+.block-footer p{
+    font-family: "ヒラギノ角ゴシック";
+    font-size: 15px;
+    text-align: center;
+    padding-top: 80px;
+    color: #FFF;
+}
+@media screen and (max-width: 767px) {
+    .btn{
+        width: 40%;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .privacy-policy{
+        display: none;
+    }
+    .block-footer{
+        display: none;
+    }
+}
