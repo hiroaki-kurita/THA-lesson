@@ -25,7 +25,7 @@ a{
 }
 ul.header-list{
     display: flex;
-    margin: 78px 158px 48px 450px;
+    margin: auto 0 auto 0;
     width: 670px;
     padding-inline-start: 0px;
 }
@@ -163,19 +163,21 @@ input:checked ~ #h-menu_black {
     transition-duration: 0.2s;
 }
 #h-menu_content li a:hover {
-    background: #455b6d;
+    background: #FF8748;
 }
 
 /* レスポンシブ（スマホ） */
 @media screen and (max-width: 767px) { 
     .header-sp{
-        display: inline-flex;
+        display: flex;
     }
     .header-sp img{
-        margin-left: 156px;
+        margin-left: 40%; 
+        width: 69px;
+        height: 69px;
     }
     .header-sp button{
-        margin-left: 67px;
+        margin-left: auto;
     }
     .block-header{
         display: none;
@@ -192,22 +194,20 @@ input:checked ~ #h-menu_black {
 img[src="img/top-sp.png"]{
     display: none;
 }
-/* todo text-shadow */
 .main-title h2{
     font-family: "ヒラギノ明朝 ProN";
     font-size: 40px;
     color: #14120E;
-    -webkit-text-stroke: 1px #FFF;
+    text-shadow: 3px 3px 2px #FFF, 0 0 1em #747D54, 0 0 0.2em #747D54;
     padding-left: 120px;
     padding-top: 115.5px;
     font-weight: bold;
 }
-/* todo text-shadow */
 .main-title h1{
     font-family: "ヒラギノ明朝 ProN";
     font-size: 60px;
     color: #14120E;
-    -webkit-text-stroke: 1.5px #FFF;
+    text-shadow: 3px 3px 2px #FFF, 0 0 1em #747D54, 0 0 0.2em #747D54;
     padding: 37.5px 0 0 110px;
     font-weight: bold;
 }
@@ -224,15 +224,13 @@ img[src="img/top-sp.png"]{
     .main-title h2{
         text-align: center;
         font-size: 12px;
-        -webkit-text-stroke: 0px;
-        padding-left: 20px;
+        padding-left: 0;
         padding-top: 15px;
     }
     .main-title h1{
         text-align: center;
         font-size: 18px;
-        -webkit-text-stroke: 0px;
-        padding: 10px 0 0 20px;
+        padding: 10px 0 0 0;
     }
 }
 
@@ -287,17 +285,21 @@ img[src="img/familycooking-sp.png"]{
 }
 /* お客様の声 */
 .voice-title{
-    height: 25vh;
     margin-top: 100px;
     font-family: "ヒラギノ明朝 ProN";
     background-color: #ff8748;
     background: linear-gradient(to right , #ff8748 , #fff); /* 徐々に透明にする */
     color: #FFF;
-    padding: 35px 0 0 151px;
+    height: 12em;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 40px;
 }
 .voice-title h4{
     font-size: 40px;
     line-height: 1.5;
+    margin: 0;
 }
 .voice-first, .voice-second, .voice-third{
     color: #5C5337;
@@ -312,7 +314,7 @@ img[src="img/familycooking-sp.png"]{
     line-height: 2;
 }
 .voice-first span, .voice-second span, .voice-third span{
-    text-decoration:underline;
+    text-decoration: underline;
     text-decoration-color:#ff8748;
 }
 .first-name p, .second-name p, .third-name p{
@@ -323,17 +325,18 @@ img[src="img/familycooking-sp.png"]{
     #lesson-detail h3{
         margin-top: 30px;
         text-align: center;
-        font-size: 15px;
+        font-size: 20px;
     }
     #lesson-detail h4{
         text-align: center;
         margin: 20px 0 0 30px;
         width: 85%;
-        height: 54px;
-        font-size: 14px;
+        height: 80px;
+        font-size: 18px;
         box-shadow: 0 0 0 5px #D2E09F;
         border: 1px solid #5C5337;
         padding: 0 10px 0 10px;
+        line-height: 1.5;
     }
     .detail-content{
         margin-top: 30px;
@@ -341,7 +344,7 @@ img[src="img/familycooking-sp.png"]{
     }
     .detail-content p{
         margin-left: 20px;
-        font-size: 12px;
+        font-size: 14px;
         padding-top: 10px;
     }
     img[src="img/familycooking-sp.png"]{
@@ -358,16 +361,16 @@ img[src="img/familycooking-sp.png"]{
         margin-left: 0px;
     }
     .voice-title{
-        height: 12vh;
-        margin-top: 60px;
-        padding: 25px 0 0 20px;
+        height: 5em;
+        margin-top: 40px;
+        padding-left: 20px;
     }
     .voice-title h4{
-        font-size: 14px;
+        font-size: 16px;
         line-height: 1.5;
     }
     .voice-first, .voice-second, .voice-third{
-        font-size: 10px;
+        font-size: 14px;
         width: 85%;
         height: auto;
         margin: 34.5px 0 0 30px;
@@ -378,7 +381,6 @@ img[src="img/familycooking-sp.png"]{
         padding: 10px 0 30px 225px;
     }
 }
-
 /* 資格取得で描くステップアップ */
 .license-step h4{
     margin: 181.5px 0 0 200px;
@@ -600,7 +602,7 @@ img[src="img/inquiry-button.png"]{
         margin: 80px 0 0 30px;
         width: 85%;
         height: 54px;
-        font-size: 14px;
+        font-size: 18px;
         box-shadow: 0 0 0 5px #D2E09F;
         border: 1px solid #5C5337;
         padding: 0 10px 0 10px;
@@ -608,20 +610,20 @@ img[src="img/inquiry-button.png"]{
     .step-text{
         margin-top: 28px;
         padding-left: 18px;
-        font-size: 12px;
+        font-size: 14px;
         line-height: 2.0;
         margin-right: 18px;
     }
     /*  基礎講座 */
     .b-lesson-title h3{
-        font-size: 18px;
+        font-size: 24px;
         width: 90%;
         height: auto;
         margin-left: 20px;
         padding: 15px 0 15px 30px;
     }
     .b-lesson-title h4{
-        font-size: 14px;
+        font-size: 18px;
         margin: 20px auto 20px 20px;
     }
     .b-lesson-detail{
@@ -633,7 +635,7 @@ img[src="img/inquiry-button.png"]{
         margin: 0 0 20px 20px;
     }
     .b-lesson-text p{
-        font-size: 10px;
+        font-size: 14px;
         margin-left: 20px;
         margin-top: 0;
         margin-bottom: 10px;
@@ -648,7 +650,7 @@ img[src="img/inquiry-button.png"]{
         height: 45px;
     }
     .basic-title h3{
-        font-size: 14px;
+        font-size: 18px;
         width: 90%;
         height: auto;
         padding: 10px 0 0 80px;
@@ -671,13 +673,13 @@ img[src="img/inquiry-button.png"]{
         margin-top: 5px;
     }
     .basic-text p{
-        font-size: 10px;
+        font-size: 14px;
         padding: 0px 20px 0px 20px;
         margin: 0;
     }
     .basic-text span{
-        margin: 10px 0 0 20px;
-        font-size: 14px;
+        margin: 20px 0 0 20px;
+        font-size: 18px;
     }
 
     /* サポートコース */
@@ -685,7 +687,7 @@ img[src="img/inquiry-button.png"]{
         margin: 40px 0 0 0;
     }
     .support-detail h3{
-        font-size: 14px;
+        font-size: 18px;
         width: 90%;
         height: auto;
         padding: 10px 0 10px 30px;
@@ -701,13 +703,13 @@ img[src="img/inquiry-button.png"]{
         margin-top: 5px;
     }
     .support-text p{
-        font-size: 10px;
+        font-size: 14px;
         padding: 0px 20px 0px 20px;
         margin: 0;
     }
     .support-text span{
-        margin: 10px 0 0 20px;
-        font-size: 14px;
+        margin: 20px 0 0 20px;
+        font-size: 18px;
     }
 
     /* フルサポートコース */
@@ -719,7 +721,7 @@ img[src="img/inquiry-button.png"]{
         height: 45px;
     }
     .fullsupport-title h3{
-        font-size: 14px;
+        font-size: 18px;
         width: 90%;
         height: auto;
         padding: 10px 0 0 80px;
@@ -742,13 +744,13 @@ img[src="img/inquiry-button.png"]{
         margin-top: 5px;
     }
     .fullsupport-text p{
-        font-size: 10px;
+        font-size: 14px;
         padding: 0px 20px 0px 20px;
         margin: 0;
     }
     .fullsupport-text span{
         margin: 10px 0 0 20px;
-        font-size: 14px;
+        font-size: 18px;
     }
     .inquiry-button{
         display: none;
@@ -862,7 +864,7 @@ img[src="img/inquiry-button.png"]{
 @media screen and (max-width: 767px) { 
     /*  育成講座 */
     .t-lesson-title h3{
-        font-size: 18px;
+        font-size: 24px;
         width: 90%;
         height: auto;
         margin-top: 40px;
@@ -870,7 +872,7 @@ img[src="img/inquiry-button.png"]{
         padding: 15px 0 15px 30px;
     }
     .t-lesson-title h4{
-        font-size: 14px;
+        font-size: 18px;
         margin: 20px auto 20px 20px;
     }
     .t-lesson-detail{
@@ -882,7 +884,7 @@ img[src="img/inquiry-button.png"]{
         margin: 0 0 20px 20px;
     }
     .t-lesson-text p{
-        font-size: 10px;
+        font-size: 14px;
         margin-left: 20px;
         margin-top: 0;
         margin-bottom: 10px;
@@ -894,7 +896,7 @@ img[src="img/inquiry-button.png"]{
         margin: 40px 0 0 0;
     }
     .adviser2-detail h3{
-        font-size: 13px;
+        font-size: 18px;
         width: 90%;
         height: auto;
         padding: 10px;
@@ -914,20 +916,20 @@ img[src="img/inquiry-button.png"]{
         padding: 0px;
     }
     .adviser2-text p{
-        font-size: 10px;
+        font-size: 14px;
         padding: 10px 30px 0px 30px;
         margin: 0;
     }
     .adviser2-text span{
         margin: 10px 0 0 20px;
-        font-size: 14px;
+        font-size: 18px;
     }
     /*  トータルヘルスケアフードアドバイザー１級　講習 */
     .adviser1-detail{
         margin: 40px 0 0 0;
     }
     .adviser1-detail h3{
-        font-size: 13px;
+        font-size: 18px;
         width: 90%;
         height: auto;
         padding: 10px;
@@ -947,13 +949,13 @@ img[src="img/inquiry-button.png"]{
         padding: 0px;
     }
     .adviser1-text p{
-        font-size: 10px;
+        font-size: 14px;
         padding: 0px 30px 0px 30px;
         margin: 0;
     }
     .adviser1-text span{
         margin: 10px 0 0 20px;
-        font-size: 14px;
+        font-size: 18px;
     }
     .adviser1-detail a{
         display: none;
@@ -979,7 +981,7 @@ img[src="img/price.png"]{
 }
 @media screen and (max-width: 767px) {
     .price h3{
-        font-size: 18px;
+        font-size: 24px;
         width: 90%;
         height: auto;
         margin-left: 20px;
@@ -1002,7 +1004,8 @@ img[src="img/price.png"]{
     font-family: "ヒラギノ明朝 ProN";
     font-size: 60px;
     color: #5C5337;
-    margin: 80px 145px 100px 450px;
+    text-align: center;
+    margin: 80px 0 100px 0;
 }
 .youtube {
     position: relative;
@@ -1019,7 +1022,7 @@ img[src="img/price.png"]{
   }
 @media screen and (max-width: 767px) {
     .price h3{
-        font-size: 18px;
+        font-size: 24px;
         width: 90%;
         height: auto;
         margin-left: 20px;
@@ -1030,11 +1033,15 @@ img[src="img/price.png"]{
         max-width: 90%;
         margin: 10px 0 0 20px;
     }
+    #association-about{
+        background-position: -80px -30px;
+    }
     #association-about h3{
         font-family: "ヒラギノ明朝 ProN";
-        font-size: 20px;
+        font-size: 24px;
         color: #5C5337;
-        margin: 40px 0 30px 100px;
+        text-align: center;
+        margin: 40px 0 30px 0px;
         position: relative;
         z-index: 1;
     }
@@ -1073,7 +1080,7 @@ img[src="img/price.png"]{
 @media screen and (max-width: 767px) {
     #association-overview h3{
         margin: 0px 0 32px 0;
-        font-size: 18px;
+        font-size: 24px;
         width: 100%;
         height: auto;
         padding: 15px 0 15px 0px;
@@ -1081,11 +1088,11 @@ img[src="img/price.png"]{
     }
     #association-overview h4{
         text-align: center;
-        font-size: 18px;
+        font-size: 20px;
         margin-left: 0px;
     }
     #association-overview p{
-        font-size: 10px;
+        font-size: 14px;
         margin: 20px 20px 0 20px;
     }
     #association-overview img{
@@ -1130,7 +1137,7 @@ img[src="img/toshiko2-sp.png"]{
 @media screen and (max-width: 767px) {
     .greeting h4{
         text-align: center;
-        font-size: 18px;
+        font-size: 20px;
         margin-left: 0px;
         padding: 40px 0 20px 0;
     }
@@ -1139,7 +1146,7 @@ img[src="img/toshiko2-sp.png"]{
         margin: 0;
     }
     .greeting-content p{
-        font-size: 10px;
+        font-size: 14px;
         color: #5C5337;
         margin: 0 10px auto 10px;
     }
@@ -1263,14 +1270,14 @@ img[src="img/toshiko2-sp.png"]{
 @media screen and (max-width: 767px) {
     #mail-form h3{
         margin: 0px 0 32px 0;
-        font-size: 18px;
+        font-size: 24px;
         width: 100%;
         height: auto;
         padding: 15px 0 15px 0px;
         margin-top: 14px;
     }
     #mail-form p{
-        font-size: 12px;
+        font-size: 14px;
         margin:  0;
     }
     /*  フォーム入力欄 */
