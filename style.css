@@ -223,13 +223,13 @@ img[src="img/top-sp.png"]{
     }
     .main-title h2{
         text-align: center;
-        font-size: 12px;
+        font-size: 13px;
         padding-left: 0;
-        padding-top: 15px;
+        padding-top: 40px;
     }
     .main-title h1{
         text-align: center;
-        font-size: 18px;
+        font-size: 20px;
         padding: 10px 0 0 0;
     }
 }
@@ -378,7 +378,7 @@ img[src="img/familycooking-sp.png"]{
         line-height: 2;
     }
     .first-name p, .second-name p, .third-name p{
-        padding: 10px 0 30px 225px;
+        padding: 10px 0 30px 170px;
     }
 }
 /* 資格取得で描くステップアップ */
