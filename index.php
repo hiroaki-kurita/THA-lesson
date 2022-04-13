@@ -40,11 +40,17 @@
                     <label id="h-menu_black" class="h-menuCheckbox" for="h-menu_checkbox"></label>
                     <div id="h-menu_content">
                         <ul>
-                            <li><a href="#">認定講座</a></li>
-                            <li><a href="#">協会について</a></li>
-                            <li><a href="#">協会概要</a></li>
+                            <li><a href="#lesson-detail">認定講座</a></li>
+                            <li><a href="#association-about">協会について</a></li>
+                            <li><a href="#association-overview">協会概要</a></li>
                         </ul>
+                        <div class="h-menu_policy">
+                            <p><a href="#">プライバシー</a><p>
+                            <p><a href="#">特定商取引法に基づく表示</a></p>
+                            <p>Copyright ©︎ トータルヘルスケア協会</p>
+                        </div>
                     </div>
+
                 </div>
             </button>
         </div>
@@ -137,10 +143,10 @@
                             <img src="img/basic-image.jpg" alt="ベーシックコースのイメージ図">
                         </div>
                         <div class="basic-text">
-                            <span>コース説明</span>
+                            <span class="under-line">コース説明</span>
                             <p>バランスの取れた料理のレパートリーを増やし、美味しく食べて家族も皆、健康になります。</p>
                             <p><br></p>
-                            <span>受講内容</span>
+                            <span class="under-line">受講内容</span>
                             <p>1.オンラインレッスン　6回<br>
                             2.Line及びZOOMサポート（30分×6回）</p>
                         </div>
@@ -153,14 +159,14 @@
                             <img src="img/support-image.jpg" alt="サポートコースのイメージ図">
                         </div>
                         <div class="support-text">
-                            <span>コース説明</span>
+                            <span class="under-line">コース説明</span>
                             <p>バランスの取れた料理のレパートリーを増やし、美味しく食べて家族も皆、健康になります。
                             さらにベーシックコースに加え、オリジナルレシピなど、嬉しいサポートが追加されたコースです。</p>
                             <br>
-                            <span>受講内容</span>
+                            <span class="under-line">受講内容</span>
                             <p>1.オンラインレッスン　6回<br>
                             2.Line及びZOOMサポート（30分×6回）<br>
-                            3.あなたにカスタマイズしたオリジナルレシピと作り⽅動画（料理によってはレシピのみ）・24レシピ</p>
+                            3.<span class="color">あなたにカスタマイズしたオリジナルレシピと作り⽅動画（料理によってはレシピのみ）・24レシピ</span></p>
                         </div>
                     </div>
                 </div>
@@ -174,29 +180,29 @@
                             <img src="img/fullsupport-image.jpg" alt="ベーシックコースのイメージ図">
                         </div>
                         <div class="fullsupport-text">
-                            <span>コース説明</span>
+                            <span class="under-line">コース説明</span>
                             <br>
                             <p>バランスの取れた料理のレパートリーを増やすだけでなく、知識を得ることで食事で健康を維持、コントロールできるようになります。</p>
                             <br>
-                            <span>資格取得</span>
+                            <span class="under-line">資格取得</span>
                             <br>
                             <p>トータルヘルスケアフードアドバイザー3級取得が可能です。</p>
                             <br>
-                            <span>受講内容</span>
+                            <span class="under-line">受講内容</span>
                             <br>
                             <p>1.オンラインレッスン　6回</p>
                             <p>2.Line及びZOOMサポート（30分×6回）</p>
-                            <p>3.あなたにカスタマイズしたオリジナルレシピと作り⽅動画</p>
-                            <p>（料理によってはレシピのみ）・24 レシピ</p>
-                            <p>4.毎日の食事記録 アドバイス</p>
-                            <p>5.栄養についての講義（90分×6回）</p>
+                            <p>3.<span class="color">あなたにカスタマイズしたオリジナルレシピと作り⽅動画</span></p>
+                            <p><span class="color">（料理によってはレシピのみ）・24 レシピ</span></p>
+                            <p>4.<span class="color">毎日の食事記録 アドバイス</span></p>
+                            <p>5.<span class="color">栄養についての講義（90分×6回）</span></p>
                             <div class="nutrition-lesson">
-                                <p>①　身体のしくみ、免疫について</p>
-                                <p>②　身体に必要な栄養について</p>
-                                <p>③　正しい食生活の為の基本的な知識</p>
-                                <p>④　病気にならない為の食習慣と生活習慣</p>
-                                <p>⑤　栄養についての知識 1</p>
-                                <p>⑥　栄養についての知識 2</p>
+                                <p><span class="color">①　身体のしくみ、免疫について</span></p>
+                                <p><span class="color">②　身体に必要な栄養について<span></p>
+                                <p><span class="color">③　正しい食生活の為の基本的な知識</span></p>
+                                <p><span class="color">④　病気にならない為の食習慣と生活習慣</span></p>
+                                <p><span class="color">⑤　栄養についての知識 1</span></p>
+                                <p><span class="color">⑥　栄養についての知識 2</span></p>
                             </div>
                         </div>
                     </div>
@@ -230,18 +236,18 @@
                             <img src="img/adviser2.jpg" alt="アドバイザー２級">
                         </div>
                         <div class="adviser2-text">
-                            <span>コース説明</span>
+                        <span class="under-line">コース説明</span>
                             <p>知識を生かしながら実際にアドバイスできるスキルを身に付られます。資格試験合格後は
                             『トータルヘルスケアフードアドバイザー』として 食事指導やサポートが出来ます。
                             <p><br></p>
-                            <span>受講内容</span>
+                            <span class="under-line">受講内容</span>
                             <p>1.個別サポート実習</p>
                             <div class="adviser2-memo">
                                 <p>講師のアドバイスを受けながら、モニター様へのサポートを実際に行います。</p>
                             </div>
                             <p>2.パワーポイントを使ってのデモレッスン（グループレッスン）6回</p>
                             <p>3.臨床栄養学についての講義（90分×3回）</p>
-                            <p>4.専門家によるビジネスセミナー（90分×3回）</p>
+                            <p>4.専門家によるビジネスセミナー（90分1回）</p>
                             <p>5.1,000以上あるレシピ・及び作り方動画を自由に閲覧可能。</p>
                             <div class="adviser2-memo">
                                 <p>（自身の家庭での食事、またサポート目的での使用に限ります。）</p>
@@ -303,7 +309,7 @@
                         <p>知っているだけで美味しく作れる。美味しく食べることで、身体も心も満たされる。<br>
                         それが結果、理想のボディになり、健康へとつながります。<br>
                         決して難しい事ではありません。<br>
-                        その方法を お伝えし、またお一人ゝに寄り添いながらサポートする事で健康な食習慣、生活習慣に導き、理想の未来を手に入れて頂きます。</p>
+                        その方法をお伝えし、またお一人ゝに寄り添いながらサポートする事で健康な食習慣、生活習慣に導き、理想の未来を手に入れて頂きます。</p>
                         <p><br></p>
                         <p>また、それを仕事としてご活躍頂く事で、 病気に悩む人を一人でも減らしたい、というのがトータルヘルスケア協会の願いです。</p>
                         <img src="img/toshiko.png" alt="栗田登志子のサイン">
@@ -428,12 +434,12 @@
                             <input type="text" name="memo" value="">
                         </div>
                         <div class="mail-policy">
-                            <span>Docomo・au・softbankのキャリアメールやicloud.comのメールアドレスは、こちらからのメールが届きにくい場合があります。<br>
-                            <span>yahoo.co.jp（yahooメール）、gmail.com（Gmail）でのご登録を推奨しています。ご登録いただいたメールアドレスは弊社プライバ<br>
-                            <span>シーポリシーに基づき厳重に管理します。また、ご登録いただいたメールアドレスに無料のメールマガジンをお送りしています。登録<br>
-                            <span>解除をご希望の際にはメール内の解除リンクから簡単に登録解除できます。また、メールマガジンの中で弊社が提供している有料サー<br>
-                            <span>ビスをご案内することがございますが、無料のメールマガジンから自動的に有料サービスに登録されるようなことは一切ありませんの<br>
-                            <span>で、ご安心ください。</span>
+                            <span>Docomo・au・softbankのキャリアメールやicloud.comのメールアドレスは、こちらからのメールが届きにくい場合があります。
+                            yahoo.co.jp（yahooメール）、gmail.com（Gmail）でのご登録を推奨しています。ご登録いただいたメールアドレスは弊社プライバ
+                            シーポリシーに基づき厳重に管理します。また、ご登録いただいたメールアドレスに無料のメールマガジンをお送りしています。登録
+                            解除をご希望の際にはメール内の解除リンクから簡単に登録解除できます。また、メールマガジンの中で弊社が提供している有料サー
+                            ビスをご案内することがございますが、無料のメールマガジンから自動的に有料サービスに登録されるようなことは一切ありませんの
+                            で、ご安心ください。</span>
                         </div>
                         <button type="submit">内 容 確 認</button>
                     </form>
@@ -444,12 +450,21 @@
                 <a href="#">特定商取引法に基づく表示</a>
             </div>
         </div>
+        <!-- PC用フッター -->
         <div class="block-footer">
             <p>Copyright ©︎ トータルヘルスケア協会</p>
         </div>
-        <!-- js -->
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
-        <script src="form.js"></script>
+        <!-- スマホ用フッター -->
+        <div class="block-footer-sp">
+            <a href="#mail-form">
+                <h4>フルサポートへお申し込みで特典付</h4>
+                <h2>いますぐお問い合せ</h2>
+            </a>
+        </div>
+
     </div>
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script src="form.js"></script>
 </body>
 </html>
