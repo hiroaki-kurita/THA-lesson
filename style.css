@@ -65,11 +65,10 @@ ul.header-list{
     z-index: 102;
     position: fixed;
     top: 0;
-    margin-left: auto;
 }
 /*inputのcheckboxは非表示に*/
 .h-menuCheckbox {
-    display:none;
+    display: none;
 }
 .h-menu_icon {
     display: inline-block;
@@ -194,7 +193,8 @@ input:checked ~ #h-menu_black {
         justify-content: right;
     }
     .header-sp img{
-        margin-right: 40%; 
+        margin-right: 40%;
+        /* margin-left: 40%;  */
         width: 69px;
         height: 69px;
     }
