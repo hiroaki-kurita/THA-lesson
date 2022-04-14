@@ -189,12 +189,12 @@ input:checked ~ #h-menu_black {
 @media screen and (max-width: 767px) { 
     .header-sp{
         display: flex;
-        align-items: center;
-        justify-content: right;
+        /* align-items: center;
+        justify-content: right; */
     }
     .header-sp img{
-        margin-right: 40%;
-        /* margin-left: 40%;  */
+        /* margin-right: 40%; */
+        margin-left: 40%; 
         width: 69px;
         height: 69px;
     }
