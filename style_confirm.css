@@ -39,6 +39,9 @@ ul.header-list{
     font-family: "ヒラギノ角ゴシック";
     font-size: 30px;
 }
+.header-list li a:hover{
+    color: #FF8748;
+}
 /* 協会について */
 .header-list .about{
     margin-left: 90px;
@@ -212,18 +215,17 @@ input:checked ~ #h-menu_black {
 .content_detail span{
     font-size: 28px;
 }
+.name, .phone, .email, .sex, .age, .address, .reserve1, .reserve2, .reserve3, .memo{
+    padding: 20px 40px;
+}
+.memo{
+    margin-right: 200px;
+}
+.qa-2{
+    margin-left: 200px;
+}
 .qa{
     display: flex;
-    margin: 100px 0 auto 100px;
-}
-.question p{
-    padding-top: 20px;
-}
-.answer{
-    margin-left: 150px;
-}
-.answer p{
-    padding-top: 20px;
 }
 .content_detail label{
     font-weight: bolder;
@@ -265,27 +267,34 @@ input:checked ~ #h-menu_black {
 @media screen and (max-width: 767px) { 
     .content_detail {
         padding-top: 50px;
-        font-size: 14px;
+        font-size: 16px;
         margin: 0;
         text-align: center;
     }
     .content_detail span {
-        font-size: 14px;
+        font-size: 15px;
     }
     .qa{
-        display: flex;
-        margin:  0;
+        display: block;
     }
-    .answer{
-        margin-left: 20px;
+    .name p, .phone p, .email p, .sex p, .age p, .address p, .reserve1 p, .reserve2 p, .reserve3 p, .memo p{
+        margin: 15px 0;
+    }
+    .qa label{
+        font-weight: bold;
+    }
+    .qa-2{
+        margin-left: 0;
     }
     .btn input, .btn button{
         width: 40%;
         height: 50px;
         font-size: 18px;
     }
+    .memo{
+        margin-right: 0;
+    }
 }
-
 /* プライバシーポリシー */
 .privacy-policy{
     margin: 142px 0 49px 0;

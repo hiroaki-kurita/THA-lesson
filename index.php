@@ -114,22 +114,19 @@
             <div class="basic-lesson">
                 <div class="b-lesson-title">
                     <h3>基礎講座</h3>
-                    <h4>美と健康を確実に手に入れるサポートを。</h4>
+                    <h4>あなたとご家族の『美と健康』が手に入ります。</h4>
                 </div>
                 <div class="b-lesson-detail">
                     <div class="b-lesson-image">
                         <img src="img/lesson-image.png" alt="レッスンのイメージ図">
                     </div>
                     <div class="b-lesson-text">
-                        <p>いつも美味しい食事を家族に振る舞うみなさんだと思います
-                        が、日々ついてまわるのが「今晩の献立」。できれば、家族
-                        が健康的でいられるものは何かを常に考えていらっしゃるの
-                        ではないかなと思います。</p>
-                        <p><br></p>
-                        <p>トータルヘルスケア協会が提供する基礎講座は、
-                        バランスの取れた食事レパートリーを増やし、確実に健康へと導いていきます。</p> 
-                        <p><br></p>
-                        <p>知識と実践で、より魅力ある生活に彩りを加えてみませんか？</p>
+                        <p>日々頭を悩ますのが毎日のお献立。
+                        忙しい中、時間をかけずに 家族も喜ぶおいしい料理が作れたら。
+                        そんなあなたのお悩みが解消されます。
+                        料理が苦手でも大丈夫。
+                        料理のプロが、 時短でも美味しく簡単に作れる栄養満点の料理を 詳しく解説いたします。
+                        体調に合わせた料理が作れるようになり、組み合わせるお献立のヒントまで 教えてくれるので、頭を悩ませるストレスから解放されます。</p>
                     </div>
                 </div>
                 <div class="basic-detail">
@@ -143,11 +140,13 @@
                         </div>
                         <div class="basic-text">
                             <span class="under-line">コース説明</span>
-                            <p>バランスの取れた料理のレパートリーを増やし、美味しく食べて家族も皆、健康になります。</p>
-                            <p><br></p>
+                            <p>素材の選び方から切り方迄、料理の全ての工程が詳しく学べます。 
+                            時短でも美味しく作れるコツや見栄えする盛り付け、アレンジ法など、
+                            プロの料理講師ならではの 学び多いレッスンです。料理に自信が持てますよ。</p>
                             <span class="under-line">受講内容</span>
-                            <p>1.オンラインレッスン　6回<br>
-                            2.Line及びZOOMサポート（30分×6回）</p>
+                            <p>1.オンラインレッスン　6回（アーカイブ付き）<br>
+                            2.Line及びZOOMサポート（30分×6回）<br>
+                            　料理のお悩みや健康に関してのご相談など、個別にサポート致します。</p>
                         </div>
                     </div>
                 </div>
@@ -159,8 +158,8 @@
                         </div>
                         <div class="support-text">
                             <span class="under-line">コース説明</span>
-                            <p>バランスの取れた料理のレパートリーを増やし、美味しく食べて家族も皆、健康になります。
-                            さらにベーシックコースに加え、オリジナルレシピなど、嬉しいサポートが追加されたコースです。</p>
+                            <p>ベーシックコースに加え、嗜好やご希望に沿ったメニューをカスタマイズしてご提案します。
+                            詳しく解説した料理の作り方動画でしっかり学んで確実に料理の腕もアップ。毎日の料理作りが楽しくなり、健康になります。</p>
                             <br>
                             <span class="under-line">受講内容</span>
                             <p>1.オンラインレッスン　6回<br>
@@ -181,7 +180,8 @@
                         <div class="fullsupport-text">
                             <span class="under-line">コース説明</span>
                             <br>
-                            <p>バランスの取れた料理のレパートリーを増やすだけでなく、知識を得ることで食事で健康を維持、コントロールできるようになります。</p>
+                            <p>バランスの取れた料理のレパートリーが増えるだけでなく、知識を得ることで健康を維持、コントロールできるようになります。
+                            学びはあなたと家族のこれからの健康だけでなく、将来にも大きな幸せをもたらします。</p>
                             <br>
                             <span class="under-line">資格取得</span>
                             <br>
@@ -194,14 +194,15 @@
                             <p>3.<span class="color">あなたにカスタマイズしたオリジナルレシピと作り⽅動画</span></p>
                             <p><span class="color">（料理によってはレシピのみ）・24 レシピ</span></p>
                             <p>4.<span class="color">毎日の食事記録 アドバイス</span></p>
+                            <p><span class="color">日々の食事をご報告頂き、それに対してのアドバイスや料理のご提案等のサポートを受ける事で、確実に目標に近づけます。</span></p>
                             <p>5.<span class="color">栄養についての講義（90分×6回）</span></p>
                             <div class="nutrition-lesson">
-                                <p><span class="color">①　身体のしくみ、免疫について</span></p>
-                                <p><span class="color">②　身体に必要な栄養について<span></p>
-                                <p><span class="color">③　正しい食生活の為の基本的な知識</span></p>
-                                <p><span class="color">④　病気にならない為の食習慣と生活習慣</span></p>
-                                <p><span class="color">⑤　栄養についての知識 1</span></p>
-                                <p><span class="color">⑥　栄養についての知識 2</span></p>
+                                <p><span class="color" style="font-weight: normal;">①　身体のしくみ、免疫について</span></p>
+                                <p><span class="color" style="font-weight: normal;">②　身体に必要な栄養について<span></p>
+                                <p><span class="color" style="font-weight: normal;">③　正しい食生活の為の基本的な知識</span></p>
+                                <p><span class="color" style="font-weight: normal;">④　病気にならない為の食習慣と生活習慣</span></p>
+                                <p><span class="color"style="font-weight: normal;">⑤　栄養についての知識 1</span></p>
+                                <p><span class="color" style="font-weight: normal;">⑥　栄養についての知識 2</span></p>
                             </div>
                         </div>
                     </div>
@@ -214,7 +215,7 @@
             <div class="t-training-lesson">
                 <div class="t-lesson-title">
                     <h3>育成講座</h3>
-                    <h4>ご自分の家族だけではなく、仕事に繋げて、さらに輝く人生へ</h4>
+                    <h4>あなたとご家族だけでなく、仕事に繋げて、さらに輝く人生へ</h4>
                 </div>
                 <div class="t-lesson-detail">
                     <div class="t-lesson-image">
@@ -244,8 +245,8 @@
                             <div class="adviser2-memo">
                                 <p>講師のアドバイスを受けながら、モニター様へのサポートを実際に行います。</p>
                             </div>
-                            <p>2.パワーポイントを使ってのデモレッスン（グループレッスン）6回</p>
-                            <p>3.臨床栄養学についての講義（90分×3回）</p>
+                            <p>2.臨床栄養学についての講義（90分×3回）</p>
+                            <p>3.康に欠かせない、食以外の分野における専門家による講義（90分×3回）</p>
                             <p>4.専門家によるビジネスセミナー（90分1回）</p>
                             <p>5.1,000以上あるレシピ・及び作り方動画を自由に閲覧可能。</p>
                             <div class="adviser2-memo">
@@ -319,24 +320,26 @@
                 </div>
             </div>
             <div id="mail-form">
-                <h3>お問合わせ</h3>
-                <p>講座お申し込みをご希望の方は、以下のお申込フォームに必要事項をご入力下さい。</p>
-                <p>３営業日以内にassociation@totalhealthcare.ne.jpよりご連絡させて頂きます。</p> 
-                <p><br></p>
-                <p>内容に間違いがなければ次の確認画面で【送信】ボタンを押してください。</p>
+                <div class="form-title">
+                    <h3>お問合わせ</h3>
+                    <p>講座お申し込みをご希望の方は、以下のお申込フォームに必要事項をご入力下さい。</p>
+                    <p>３営業日以内にassociation@totalhealthcare.ne.jpよりご連絡させて頂きます。</p> 
+                    <p><br></p>
+                    <p>内容に間違いがなければ次の確認画面で【送信】ボタンを押してください。</p>
+                </div>
                 <div class="form-text">
                     <form action="confirm.php" method="post">
                         <div class="name">
-                            <label>ご氏名</label>
-                            <input type="text" name="name" value="">
+                            <label>ご氏名<span>※必須</span></label>
+                            <input type="text" name="name" value="" required>
                         </div>
                         <div class="phone">
-                            <label>お電話番号</label>
-                            <input type="text" name="phone" value="">
+                            <label>お電話番号<span>※必須</span></label>
+                            <input type="text" name="phone" value="" required>
                         </div>
                         <div class="email">
-                            <label>メールアドレス</label>
-                            <input type="text" name="email" value="">
+                            <label>メールアドレス<span>※必須</span></label>
+                            <input type="text" name="email" value="" required>
                         </div>
                         <div class="sex">
                             <label>性別</label>
@@ -415,30 +418,30 @@
                             </div>
                             <div class="reserve-list">
                                 <div class="reserve-1">
-                                    <label>第１希望</label>
-                                    <input type="datetime-local" name="reserve1" value="">
+                                    <label>第１希望<span>※必須</span></label>
+                                    <input type="datetime-local" name="reserve1" value="" required>
                                 </div>
                                 <div class="reserve-2">
-                                    <label>第２希望</label>
-                                    <input type="datetime-local" name="reserve2" value="">
+                                    <label>第２希望<span>※必須</span></label>
+                                    <input type="datetime-local" name="reserve2" value="" required>
                                 </div>
                                 <div class="reserve-3">
-                                    <label>第３希望</label>
-                                    <input type="datetime-local" name="reserve3" value="">
+                                    <label>第３希望<span>※必須</span></label>
+                                    <input type="datetime-local" name="reserve3" value="" required>
                                 </div>
                             </div>
                         </div>
                         <div class="memo">
                             <label>ご質問がございましたら、ご自由にご記載ください。</label>
-                            <input type="text" name="memo" value="">
+                            <textarea name="memo" cols="50" rows="10" wrap="soft"></textarea>
                         </div>
                         <div class="mail-policy">
-                            <span>Docomo・au・softbankのキャリアメールやicloud.comのメールアドレスは、こちらからのメールが届きにくい場合があります。
+                            <p>Docomo・au・softbankのキャリアメールやicloud.comのメールアドレスは、こちらからのメールが届きにくい場合があります。
                             yahoo.co.jp（yahooメール）、gmail.com（Gmail）でのご登録を推奨しています。ご登録いただいたメールアドレスは弊社プライバ
                             シーポリシーに基づき厳重に管理します。また、ご登録いただいたメールアドレスに無料のメールマガジンをお送りしています。登録
                             解除をご希望の際にはメール内の解除リンクから簡単に登録解除できます。また、メールマガジンの中で弊社が提供している有料サー
                             ビスをご案内することがございますが、無料のメールマガジンから自動的に有料サービスに登録されるようなことは一切ありませんの
-                            で、ご安心ください。</span>
+                            で、ご安心ください。</p>
                         </div>
                         <button type="submit">内 容 確 認</button>
                     </form>

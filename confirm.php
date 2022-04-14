@@ -88,32 +88,53 @@
                 <div class="content_detail">
                     <span>お問い合わせ内容はこちらで宜しいでしょうか？<br>よろしければ「送信する」ボタンを押して下さい。</span>
                     <div class="qa">
-                        <div class="question">
-                            <p>お名前</p>
-                            <p>お電話番号</p>
-                            <p>メールアドレス</p>
-                            <p>性別</p>
-                            <p>ご年齢</p>
-                            <p>お住まいの都道府県</p>
-                            <p>第１希望</p>
-                            <p>第２希望</p>
-                            <p>第３希望</p>
-                            <p>ご質問内容</p>
+                        <div class="qa-1">
+                            <div class="name">
+                                <label>お名前</label>
+                                <p><?php echo $name; ?></p>
+                            </div>
+                            <div class="phone">
+                                <label>お電話番号</label>
+                                <p><?php echo $phone; ?></p>
+                            </div>
+                            <div class="email">
+                                <label>メールアドレス</label>
+                                <p><?php echo $email; ?></p>
+                            </div>
+                            <div class="sex">
+                                <label>性別</label>
+                                <p><?php echo $sex; ?></p>
+                            </div>
+                            <div class="age">
+                                <label>ご年齢</label>
+                                <p><?php echo $age; ?></p>
+                            </div>
+                            <div class="address">
+                                <label>お住まいの都道府県</label>
+                                <p><?php echo $address; ?></p>
+                            </div>
                         </div>
-                        <div class="answer">
-                            <p><?php echo $name; ?></p>
-                            <p><?php echo $phone; ?></p>
-                            <p><?php echo $email; ?></p>
-                            <p><?php echo $sex; ?></p>
-                            <p><?php echo $age; ?></p>
-                            <p><?php echo $address; ?></p>
-                            <p><?php echo $reserve1; ?></p>
-                            <p><?php echo $reserve2; ?></p>
-                            <p><?php echo $reserve3; ?></p>
-                            <p><?php echo $memo; ?></p>
+                        <div class="qa-2">
+                            <div class="reserve1">
+                                <label>第１希望</label>
+                                <p><?php echo $reserve1; ?></p>
+                            </div>
+                            <div class="reserve2">
+                                <label>第２希望</label>
+                                <p><?php echo $reserve2; ?></p>
+                            </div>
+                            <div class="reserve3">
+                                <label>第３希望</label>
+                                <p><?php echo $reserve3; ?></p>
+                            </div>
                         </div>
                     </div>
+                    <div class="memo">
+                        <label>ご質問内容</label>
+                        <p><?php echo $memo; ?></p>
+                    </div>
                 </div>
+               
                 <div class="btn">
                     <input type="button" value="内 容 修 正" onclick="history.back(-1)">
                     <button type="submit" name="submit">送信する</button>

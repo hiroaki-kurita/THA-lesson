@@ -39,6 +39,9 @@ ul.header-list{
     font-family: "ヒラギノ角ゴシック";
     font-size: 30px;
 }
+.header-list li a:hover{
+    color: #FF8748;
+}
 /* 協会について */
 .header-list .about{
     margin-left: 90px;
