@@ -186,7 +186,7 @@ input:checked ~ #h-menu_black {
     margin-top: 10px;
 }
 /* レスポンシブ（スマホ） */
-@media screen and (max-width: 767px) { 
+@media screen and (max-width: 450px) { 
     .header-sp{
         display: flex;
         align-items: center;
