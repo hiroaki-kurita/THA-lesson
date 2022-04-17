@@ -144,9 +144,9 @@
                             時短でも美味しく作れるコツや見栄えする盛り付け、アレンジ法など、
                             プロの料理講師ならではの 学び多いレッスンです。料理に自信が持てますよ。</p>
                             <span class="under-line">受講内容</span>
-                            <p>1.オンラインレッスン　6回（アーカイブ付き）<br>
+                            <p>1.オンラインレッスン 6回（アーカイブ付き）<br>
                             2.Line及びZOOMサポート（30分×6回）<br>
-                            　料理のお悩みや健康に関してのご相談など、個別にサポート致します。</p>
+                             料理のお悩みや健康に関してのご相談など、個別にサポート致します。</p>
                         </div>
                     </div>
                 </div>
@@ -189,7 +189,7 @@
                             <br>
                             <span class="under-line">受講内容</span>
                             <br>
-                            <p>1.オンラインレッスン　6回</p>
+                            <p>1.オンラインレッスン 6回</p>
                             <p>2.Line及びZOOMサポート（30分×6回）</p>
                             <p>3.<span class="color">あなたにカスタマイズしたオリジナルレシピと作り⽅動画</span></p>
                             <p><span class="color">（料理によってはレシピのみ）・24 レシピ</span></p>
@@ -197,12 +197,12 @@
                             <p><span class="color">日々の食事をご報告頂き、それに対してのアドバイスや料理のご提案等のサポートを受ける事で、確実に目標に近づけます。</span></p>
                             <p>5.<span class="color">栄養についての講義（90分×6回）</span></p>
                             <div class="nutrition-lesson">
-                                <p><span class="color" style="font-weight: normal;">①　身体のしくみ、免疫について</span></p>
-                                <p><span class="color" style="font-weight: normal;">②　身体に必要な栄養について<span></p>
-                                <p><span class="color" style="font-weight: normal;">③　正しい食生活の為の基本的な知識</span></p>
-                                <p><span class="color" style="font-weight: normal;">④　病気にならない為の食習慣と生活習慣</span></p>
-                                <p><span class="color"style="font-weight: normal;">⑤　栄養についての知識 1</span></p>
-                                <p><span class="color" style="font-weight: normal;">⑥　栄養についての知識 2</span></p>
+                                <p><span class="color" style="font-weight: normal;">① 身体のしくみ、免疫について</span></p>
+                                <p><span class="color" style="font-weight: normal;">② 身体に必要な栄養について<span></p>
+                                <p><span class="color" style="font-weight: normal;">③ 正しい食生活の為の基本的な知識</span></p>
+                                <p><span class="color" style="font-weight: normal;">④ 病気にならない為の食習慣と生活習慣</span></p>
+                                <p><span class="color"style="font-weight: normal;">⑤ 栄養についての知識 1</span></p>
+                                <p><span class="color" style="font-weight: normal;">⑥ 栄養についての知識 2</span></p>
                             </div>
                         </div>
                     </div>
@@ -230,7 +230,7 @@
                     </div>
                 </div>
                 <div class="adviser2-detail">
-                    <h3>トータルヘルスケアフードアドバイザー２級　講習</h3>
+                    <h3>トータルヘルスケアフードアドバイザー２級 講習</h3>
                     <div class="adviser2-content">
                         <div class="adviser2-image">
                             <img src="img/adviser2.jpg" alt="アドバイザー２級">
@@ -287,7 +287,7 @@
             </div>
             <div id="association-overview">
                 <h3>協会概要</h3>
-                <h4>　協会理念　</h4>
+                <h4> 協会理念 </h4>
                 <p>「食べたものが身体を作ります。料理の組み合わせによって健康に導く事もできます。
                 美味しく健康な料理を 作り方までご提案し、健康な生活習慣へ導くサポートをする事で、病気の不安をなくし、幸せな人生を手に入れて頂く。<br>
                 そんな方が増え、またそれを仕事にし、活躍する方が増える事で 、医療崩壊の阻止につながり、身体的にも精神的にも幸せな方が増えて 精神性
@@ -295,7 +295,7 @@
                 <img src="img/association.png" alt="協会概要">
             </div>
             <div class="greeting">
-                <h4>　代表挨拶　</h4>
+                <h4> 代表挨拶 </h4>
                 <div class="greeting-content">
                     <img src="img/toshiko2-sp.png" alt="栗田登志子の写真（スマホ用）">
                     <div class="greeting-text">
@@ -323,7 +323,7 @@
                 <div class="form-title">
                     <h3>お問合わせ</h3>
                     <p>講座お申し込みをご希望の方は、以下のお申込フォームに必要事項をご入力下さい。</p>
-                    <p>３営業日以内にassociation@totalhealthcare.ne.jpよりご連絡させて頂きます。</p> 
+                    <p>3営業日以内にassociation@totalhealthcare.ne.jpよりご連絡させて頂きます。</p> 
                     <p><br></p>
                     <p>内容に間違いがなければ次の確認画面で【送信】ボタンを押してください。</p>
                 </div>
@@ -465,7 +465,7 @@
         </div>
     </div>
     <!-- js -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="form.js"></script>
 </body>
 </html>
