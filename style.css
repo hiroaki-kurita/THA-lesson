@@ -193,7 +193,6 @@ input:checked ~ #h-menu_black {
     }
     .header-sp img{
         margin-right: 40%;
-        /* margin-left: 40%;  */
         width: 69px;
         height: 69px;
     }

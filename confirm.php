@@ -39,13 +39,13 @@
             <img src="img/logo.png" alt="THAロゴ">
             <ul class="header-list">
                 <li class="lesson">
-                    <a href="#">認定講座</a>
+                    <a href="#lesson-detail">認定講座</a>
                 </li>
                 <li class="about">
-                    <a href="#">協会について</a>
+                    <a href="#association-about">協会について</a>
                 </li>
                 <li class="overview">
-                    <a href="#">協会概要</a>
+                    <a href="#association-overview">協会概要</a>
                 </li>
             </ul>
         </div>
@@ -59,13 +59,13 @@
                     <label id="h-menu_black" class="h-menuCheckbox" for="h-menu_checkbox"></label>
                     <div id="h-menu_content">
                         <ul>
-                            <li><a href="#">認定講座</a></li>
-                            <li><a href="#">協会について</a></li>
-                            <li><a href="#">協会概要</a></li>
+                            <li><a href="#lesson-detail">認定講座</a></li>
+                            <li><a href="#association-about">協会について</a></li>
+                            <li><a href="#association-overview">協会概要</a></li>
                         </ul>
                         <div class="h-menu_policy">
-                            <p><a href="#">プライバシー</a><p>
-                            <p><a href="#">特定商取引法に基づく表示</a></p>
+                            <p><a href="https://totalhealthcare.ne.jp/privacypolicy/">プライバシー</a><p>
+                            <p><a href="https://totalhealthcare.ne.jp/policy/">特定商取引法に基づく表示</a></p>
                             <p>Copyright ©︎ トータルヘルスケア協会</p>
                         </div>
                     </div>
@@ -142,15 +142,15 @@
             </form>
         </div>
         <div class="privacy-policy">
-            <a href="#">プライバシー</a>
-            <a href="#">特定商取引法に基づく表示</a>
+            <a href="https://totalhealthcare.ne.jp/privacypolicy/">プライバシー</a>
+            <a href="https://totalhealthcare.ne.jp/policy/">特定商取引法に基づく表示</a>
         </div>
         <div class="block-footer">
             <p>Copyright ©︎ トータルヘルスケア協会</p>
         </div>
     </div>
     <!-- js -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="form.js"></script>
 </body>
 </html>
