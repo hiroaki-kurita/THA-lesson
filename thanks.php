@@ -54,9 +54,9 @@
         <?php
             try{
                 // MySQLに接続
-                $dsn = 'mysql2013.db.sakura.ne.jp;dbname=kuritacooking_tha-lesson;charaset=utf8';
+                $dsn = 'mysql:host=mysql2013.db.sakura.ne.jp;dbname=kuritacooking_tha-lesson;charaset=utf8mb4_general_ci';
                 $user = 'kuritacooking';
-                $pass = ' xiEtwxTf_Qw7';
+                $pass = 'sRFO889YYG0q';
                 $dbh = new PDO($dsn,$user,$pass,[
                     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
                 ]);

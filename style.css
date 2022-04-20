@@ -189,7 +189,7 @@ input:checked ~ #h-menu_black {
     .header-sp{
         display: flex;
         align-items: center;
-        justify-content: right;
+        justify-content: flex-end;
     }
     .header-sp img{
         margin-right: 40%;
