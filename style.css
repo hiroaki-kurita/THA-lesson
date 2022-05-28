@@ -29,7 +29,7 @@ a{
 }
 ul.header-list{
     display: flex;
-    margin: auto 0 auto 0;
+    margin: auto 0;
     width: 670px;
     padding-inline-start: 0px;
 }
@@ -175,7 +175,7 @@ input:checked ~ #h-menu_black {
 }
 /* 中身（プライバシーポリシー） */
 .h-menu_policy {
-    margin-top:100px;
+    margin-top: 100px;
 }
 .h-menu_policy p{
     text-decoration: none;
@@ -184,11 +184,28 @@ input:checked ~ #h-menu_black {
     text-align: right;
     margin-top: 10px;
 }
+/* レスポンシブ（タブレット） */
+@media screen and (max-width: 959px) { 
+    .header-list li{
+        width: 100px;
+        font-size: 25px;
+    }
+    .block-header img{
+        margin: 13px 20px 13px 20px;
+    }
+    /* 協会について */
+    .header-list .about{
+    margin-left: 50px;
+    width: 200px;
+    }
+}
 /* レスポンシブ（スマホ） */
-@media screen and (max-width: 450px) { 
+@media screen and (max-width: 480px) { 
+    .container{
+        height: 100%;
+    }
     .header-sp{
         display: flex;
-        align-items: center;
         justify-content: flex-end;
     }
     .header-sp img{
@@ -207,6 +224,7 @@ input:checked ~ #h-menu_black {
     background-size: cover;
     background-repeat: no-repeat;
     height: 1000px;
+    background-position: auto 179px;
 }
 img[src="img/top-sp.png"]{
     display: none;
@@ -228,11 +246,26 @@ img[src="img/top-sp.png"]{
     padding: 37.5px 0 0 110px;
     font-weight: bold;
 }
+/* レスポンシブ（タブレット） */
+@media screen and (max-width: 959px) { 
+    .main-title{
+        height: 800px;
+    }
+    .main-title h2{
+        padding: 115.5px 60px 0 60px;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .main-title h1{
+        padding: 37.5px 0 0 50px;
+        font-weight: bold;
+        font-size: 50px;
+    }
+}
 /* レスポンシブ（スマホ） */
-@media screen and (max-width: 767px) { 
+@media screen and (max-width: 480px) { 
     .main-title{
         background-image: none;
-        height: auto;
     }
     img[src="img/top-sp.png"]{
         display: block;
@@ -336,8 +369,46 @@ img[src="img/familycooking-sp.png"]{
 .first-name p, .second-name p, .third-name p{
     text-align: right;
 }
+/* レスポンシブ（タブレット） */
+@media screen and (max-width: 959px) { 
+    #lesson-detail h4{
+        margin: 80px 0 0 90px;
+    }
+    .detail-content{
+        margin-top: 30px;
+        display: block;
+    }
+    .detail-content p{
+        margin-left: 0;
+        padding-top: 10px;
+    }
+    img[src="img/familycooking-sp.png"]{
+        width: 90%;
+        display: block;
+        height: auto;
+    }
+    img[src="img/familycooking.png"]{
+        display: none;
+    }
+    #lesson-detail img{
+        margin: 0 auto;
+        width: 90%;
+        height: auto;
+    }
+    /* お客様の声 */
+    .voice-title{
+        margin-top: 80px;
+    }
+    .voice-title h4{
+        font-size: 35px;
+    }
+    .voice-first, .voice-second, .voice-third{
+        font-size: 18px;
+        margin: 74.5px 0 0 60px;
+    }
+}
 /* レスポンシブ（スマホ） */
-@media screen and (max-width: 767px) { 
+@media screen and (max-width: 480px) { 
     #lesson-detail h3{
         margin-top: 30px;
         text-align: center;
@@ -542,7 +613,6 @@ img[src="img/background-green.jpg"]{
     font-size: 25px;
     color: #5C5337;
 }
-
 /* フルサポートコース */
 .fullsupport-detail{
     margin: 65px 0 0 150px;
@@ -605,8 +675,111 @@ img[src="img/inquiry-button.png"]{
     width: 60%;
     height: auto;
 }
+/* レスポンシブ（タブレット） */
+@media screen and (max-width: 959px) { 
+    .license-step h4{
+        margin: 100px 0 0 120px;
+        font-size: 38px;
+        padding-left: 20px;
+    }
+    .step-text{
+        margin-top: 78px;
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+    /* 基礎講座 */
+        .b-lesson-detail{
+        display: block;
+    }
+    .b-lesson-title h3{
+        margin-left: 70px;
+    }
+    .b-lesson-title h4{
+        font-size: 28px;
+        margin: 50px auto 50px 40px;
+    }
+    .b-lesson-image img{
+        width: 40vw;
+        margin: 0 20px 0 20px;
+    }
+    .b-lesson-text p{
+        font-size: 18px;
+        margin-right: 20px;
+    }
+    /* ベーシックコース */
+    .basic-detail{
+        margin: 35px 0 0 20px;
+    }
+    .basic-title h3{
+        font-size: 28px;
+        padding: 40px 0 0 180px;
+    }
+    .basic-content{
+        display: block;
+        margin-top: 15px;
+    }
+    .basic-text p{
+        font-size: 18px;
+        padding: 5px 0 0 0;
+    }
+    .basic-image img{
+        width: 70%;
+        margin: 20px auto 20px 80px;
+    }
+    /* 緑下線の変更 */
+    .under-line{
+        font-size: 28px;
+    }
+    /* サポートコース */
+    .support-detail{
+        margin: 85px 0 0 40px;
+    }
+    .support-detail h3{
+        font-size: 28px;
+        padding: 28px 0 28px 44px;
+    }
+    .support-image img{
+        width: 70%;
+        margin: 20px auto 20px 80px;
+    }
+    .support-content{
+        display: block;
+        margin-top: 15px;
+    }
+    .support-text p{
+        font-size: 18px;
+        padding: 5px 0 0 0;
+    }
+    /* フルサポートコース */
+    .fullsupport-detail{
+        margin: 35px 0 0 20px;
+    }
+    .fullsupport-title h3{
+        font-size: 28px;
+        padding: 40px 0 0 180px;
+    }
+    .fullsupport-content{
+        display: block;
+        margin-top: 15px;
+    }
+    .fullsupport-text p{
+        font-size: 18px;
+        padding: 5px 0 0 0;
+    }
+    .fullsupport-image img{
+        width: 70%;
+        margin: 20px auto 20px 80px;
+    }
+    img[src="img/speech-bubble.png"]{
+        width: 50%;
+    }
+    .inquiry-button{
+        display: flex;
+        margin: 80px 0 0 40px;
+    }
+}
 /* レスポンシブ（スマホ） */
-@media screen and (max-width: 767px) { 
+@media screen and (max-width: 480px) { 
     /* ステップアップ */
     .license-step h4{
         text-align: center;
@@ -673,7 +846,6 @@ img[src="img/inquiry-button.png"]{
         z-index: 10;
         margin: -7px 0 0 23px;
     }
-
     .basic-image img{
         width: 90%;
         height: auto;
@@ -857,7 +1029,81 @@ img[src="img/inquiry-button.png"]{
     height: auto;
     margin: 96px 0 130px 350px;
 }
-@media screen and (max-width: 767px) { 
+/* レスポンシブ（タブレット） */
+@media screen and (max-width: 959px) { 
+    .t-lesson-detail{
+        display: block;
+    }
+    .t-lesson-title h3{
+        margin-left: 70px;
+    }
+    .t-lesson-title h4{
+        font-size: 28px;
+        margin: 50px auto 50px 40px;
+    }
+    .t-lesson-image img{
+        width: 70%;
+        margin: 20px auto 20px 80px;
+    }
+    .t-lesson-text p{
+        font-size: 18px;
+        margin-right: 20px;
+    }
+    /* トータルヘルスケアフードアドバイザー２級　講習 */
+    .adviser2-detail{
+        margin: 35px 0 0 20px;
+    }
+    .adviser2-detail h3{
+        font-size: 28px;
+        padding: 28px 20px 28px 44px;
+    }
+    .adviser2-content{
+        margin-top: 15px;
+        display: block;
+    }
+    .adviser2-image img{
+        width: 70%;
+        margin: 20px auto 20px 80px;
+    }
+    .adviser2-text {
+        padding: 0; 
+    }
+    .adviser2-text p{
+        font-size: 18px;
+        padding: 5px 0 0 0;
+    }
+    /* その後、1級（講師）、シニア（認定講師）へステップアップ */
+    .adviser1-detail{
+        margin: 35px 0 0 20px;
+    }
+    .adviser1-detail h3{
+        font-size: 28px;
+        padding: 28px 20px 28px 44px;
+    }
+    .adviser1-text{
+        margin-top: 15px;
+    }
+    .adviser1-content{
+        margin-top: 15px;
+        display: block;
+    }
+    .adviser1-image img{
+        width: 70%;
+        margin: 20px auto 20px 80px;
+    }
+    .adviser1-text {
+        padding: 0; 
+    }
+    .adviser1-text p{
+        font-size: 18px;
+        padding: 5px 0 0 0;
+    }
+    /* お問い合わせボタン */
+    .t-training-lesson a img{
+        margin: 50px 0 100px 240px;
+    }
+}
+@media screen and (max-width: 480px) { 
     /*  育成講座 */
     .t-lesson-title h3{
         font-size: 24px;
@@ -886,10 +1132,9 @@ img[src="img/inquiry-button.png"]{
         margin-bottom: 10px;
         margin-right: 20px;
     }
-
     /*  トータルヘルスケアフードアドバイザー２級　講習 */
     .adviser2-detail{
-        margin: 40px 0 0 0;
+        margin: 40px 0 0 10px;
     }
     .adviser2-detail h3{
         font-size: 18px;
@@ -975,7 +1220,18 @@ img[src="img/price.png"]{
     max-width: 90%;
     margin:80px 0 0 60px;
 }
-@media screen and (max-width: 767px) {
+/* レスポンシブ（タブレット） */
+@media screen and (max-width: 959px) {
+    .price h3{
+        margin-left: 70px;
+    }
+    img[src="img/price.png"]{
+        max-width: 90%;
+        margin: 80px 0 0 40px;
+    }
+}
+/* レスポンシブ（スマホ） */
+@media screen and (max-width: 480px) {
     .price h3{
         font-size: 24px;
         width: 90%;
@@ -1016,19 +1272,8 @@ img[src="img/price.png"]{
     height: 90% !important;
     z-index: 1;
   }
-@media screen and (max-width: 767px) {
-    .price h3{
-        font-size: 24px;
-        width: 90%;
-        height: auto;
-        margin-left: 20px;
-        padding: 15px 0 15px 30px;
-        margin-top: 40px;
-    }
-    img[src="img/price.png"]{
-        max-width: 90%;
-        margin: 10px 0 0 20px;
-    }
+  /* レスポンシブ（スマホ） */
+@media screen and (max-width: 480px) {
     #association-about{
         background-position: -80px -30px;
     }
@@ -1073,7 +1318,18 @@ img[src="img/price.png"]{
     max-width: 90%;
     margin: 80px 0 0 60px;
 }
-@media screen and (max-width: 767px) {
+  /* レスポンシブ（タブレット） */
+  @media screen and (max-width: 959px) {
+    #association-overview p{
+        font-size: 24px;
+        margin: 50px 30px 0 30px;
+    }
+    #association-overview img{
+        margin: 80px 0 0 30px;
+    }
+}
+  /* レスポンシブ（スマホ） */
+@media screen and (max-width: 480px) {
     #association-overview h3{
         margin: 0px 0 32px 0;
         font-size: 24px;
@@ -1106,7 +1362,7 @@ img[src="img/price.png"]{
     text-decoration:underline;
     text-decoration-color: #FF8748;
     color: #5C5337;
-    margin: 0 0 0 470px;
+    text-align: center;
     padding-top: 112px;
 }
 .greeting-content{
@@ -1120,7 +1376,7 @@ img[src="img/price.png"]{
     line-height: 1.5;
 }
 img[src="img/toshiko.png"]{
-    max-width: 100%;
+    max-width: 30%;
     margin: 0 0 100px 300px;
 }
 img[src="img/toshiko2.png"]{
@@ -1130,9 +1386,35 @@ img[src="img/toshiko2.png"]{
 img[src="img/toshiko2-sp.png"]{
     display: none;
 }
-@media screen and (max-width: 767px) {
+ /* レスポンシブ（タブレット） */
+ @media screen and (max-width: 959px) {
     .greeting h4{
-        text-align: center;
+        font-size: 60px;
+    }
+    .greeting-content{
+        display: block;
+        margin: 40px 0 0 10px;
+    }
+    .greeting-content p{
+        margin-right: 10px;
+        font-size: 16px;
+    }
+    img[src="img/toshiko.png"]{
+        max-width: 30%;
+        margin: 0 0 100px 380px;
+    }
+    img[src="img/toshiko2.png"]{
+        display: none;
+    }
+    img[src="img/toshiko2-sp.png"]{
+        display: block;
+        max-width: 70%;
+        margin: 20px auto 20px 90px;
+    }
+}
+/* レスポンシブ（スマホ） */
+@media screen and (max-width: 480px) {
+    .greeting h4{
         font-size: 20px;
         margin-left: 0px;
         padding: 40px 0 20px 0;
@@ -1147,7 +1429,7 @@ img[src="img/toshiko2-sp.png"]{
         margin: 0 10px auto 10px;
     }
     img[src="img/toshiko.png"]{
-        max-width: 50%;
+        max-width: 40%;
         margin: 0 0 80px 160px;
     }
     img[src="img/toshiko2.png"]{
@@ -1253,7 +1535,6 @@ img[src="img/toshiko2-sp.png"]{
     justify-content: center;
     box-shadow: 0 3px 6px rgba(0,0,0,.1);
     overflow-y: scroll;
-
 }
 .mail-policy p{
     font-size: 12px;
@@ -1284,7 +1565,16 @@ img[src="img/toshiko2-sp.png"]{
     padding: 0 40px 0 100px;
     color: #5C5337;
 }
-@media screen and (max-width: 767px) {
+/* レスポンシブ（タブレット） */
+@media screen and (max-width: 959px) {
+    .form-title p{
+        margin-left: 20px;
+    }
+    .form-text{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 480px) {
     #mail-form h3{
         margin: 0px 0 32px 0;
         font-size: 24px;
@@ -1386,15 +1676,14 @@ img[src="img/toshiko2-sp.png"]{
 .block-footer-sp{
     display: none;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
     .block-footer{
         display: none;
     }
     .block-footer-sp{
-        position: sticky;
-        position: -webkit-sticky;
-        bottom: 0;
-        display: block;
+        position:fixed;
+        bottom:0;
+        width: 92%;
         background-color: #747D54;
         height: 100px;
         z-index: 100;

@@ -12,10 +12,11 @@
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- スタイルシート -->
     <link rel="stylesheet" href="style.css">
+    <meta name="facebook-domain-verification" content="yzrp0s4mybsxlzgaizs763uh2td8l0">
 </head>
 <body>
+    <!-- PC対応（ヘッダー） -->
     <div class="container">
-        <!-- PC対応（ヘッダー） -->
         <div class="block-header">
             <img src="img/logo.png" alt="THAロゴ">
             <ul class="header-list">
@@ -146,7 +147,7 @@
                             <span class="under-line">受講内容</span>
                             <p>1.オンラインレッスン 6回（アーカイブ付き）<br>
                             2.Line及びZOOMサポート（30分×6回）<br>
-                             料理のお悩みや健康に関してのご相談など、個別にサポート致します。</p>
+                                料理のお悩みや健康に関してのご相談など、個別にサポート致します。</p>
                         </div>
                     </div>
                 </div>
